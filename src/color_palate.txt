@@ -1,0 +1,32 @@
+black = #000000
+Yellow #FFD700
+Dark Grey (#4A4A4A)
+white = #FFFFFF
+light yellow = #FFF017
+blue = #1E90FF
+
+
+
+
+🎨 Best Button & Text Colors for Dark & Light Modes
+
+🌙 Dark Mode
+
+Background: Black (#121212) or Dark Grey (#1E1E1E)
+Text: Soft Yellow (#FFD700) or Light Grey (#E0E0E0)
+Buttons:
+Primary: Gold (#FFD700)
+Secondary: Neon Blue (#00FFFF)
+Hover: Bright Yellow (#FFF017)
+Shadows & Effects: White-glow effects on hover for buttons
+
+
+☀️ Light Mode
+
+Background: White (#FFFFFF) or Off-White (#F9F9F9)
+Text: Dark Blue (#134df3) or Black (#000000)
+Buttons:
+Primary: Deep Yellow (#FFA500)
+Secondary: Royal Blue (#134df3)
+Hover: Darker Orange (#E69500)
+Shadows & Effects: Soft grey drop shadows
