@@ -5,14 +5,15 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/wedding1.jpg',
-  '/wedding2.jpg',
-  '/wedding3.jpg',
-  '/wedding4.jpg',
-  '/wedding5.jpg',
-  '/wedding6.jpg',
-  '/wedding7.jpg',
-  '/wedding8.jpg',
+  '/images/Services/Backdrop_lighting/Back1.jpg',
+  '/images/Services/Backdrop_lighting/Back2.jpg',
+  '/images/Services/Backdrop_lighting/Back3.jpg',
+  '/images/Services/Backdrop_lighting/Back4.jpg',
+  '/images/Services/Backdrop_lighting/Back5.jpg',
+  '/images/Services/Backdrop_lighting/Back6.jpg',
+  '/images/Services/Backdrop_lighting/Back7.jpg',
+  '/images/Services/Backdrop_lighting/Back8.jpg',
+  
   
 ];
 

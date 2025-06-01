@@ -1,0 +1,31 @@
+//images start with follow short names
+
+
+//services
+
+Backdrop_lighting                >>  Back
+Canopy_string_lights             >>  Cano
+Chandeliers                      >>  Chan
+Chinese_lanterns                 >>  Chin
+Christmas_tree_lights            >>  Tree
+Fairy_lights                     >>  Fair
+Festoon_lights_with_5w_bulbs     >>  Fest
+Indoor_lighting                  >>  Indo
+Light_up_letters                 >>  Lett
+Light-up_reindeer_or_snowman     >>  Deer
+Outdoor_lighting                 >>  Outd
+Pathway_lights                   >>  Path
+Temple_decorative_lighting       >>  Temp
+Up_lighting                      >>  Up
+
+
+//Events
+
+
+Birthday_parties      >>   Birt
+Christmas_parties     >>   Chri
+Religious_festivals   >>   Reli
+Wedding               >>   Wedd
+
+
+

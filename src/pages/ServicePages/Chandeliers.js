@@ -5,14 +5,15 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/images/chandelier-1.jpg',
-  '/images/chandelier-2.jpg',
-  '/images/chandelier-3.jpg',
-  '/images/chandelier-4.jpg',
-  '/images/chandelier-5.jpg',
-  '/images/chandelier-6.jpg',
-  '/images/chandelier-7.jpg',
-  '/images/chandelier-8.jpg',
+  '/images/Services/Chandeliers/Chan1.jpg',
+  '/images/Services/Chandeliers/Chan2.jpg',
+  '/images/Services/Chandeliers/Chan3.jpg',
+  '/images/Services/Chandeliers/Chan4.jpg',
+  '/images/Services/Chandeliers/Chan5.jpg',
+  '/images/Services/Chandeliers/Chan6.jpg',
+  '/images/Services/Chandeliers/Chan7.jpg',
+  '/images/Services/Chandeliers/Chan8.jpg',
+ 
 ];
 
 const Chandeliers = ({ darkMode }) => {
