@@ -1,22 +1,21 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Box, Typography, Container, Button, CardMedia } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/images/Tree1.jpg',
-  '/images/Tree2.jpg',
-  '/images/Tree3.jpg',
-  '/images/Tree4.jpg',
-  '/images/Tree5.jpg',
-  '/images/Tree6.jpg',
-  '/images/Tree7.jpg',
-  '/images/Tree8.jpg',
-  
+  '/images/Cano1.jpg',
+  '/images/Cano2.jpg',
+  '/images/Cano3.jpg',
+  '/images/Cano4.jpg',
+  '/images/Cano5.jpg',
+  '/images/Cano6.jpg',
+  '/images/Cano7.jpg',
+  '/images/Cano8.jpg',
 ];
 
-const ChristmasTreeLights = ({ darkMode }) => {
+const CanopyStringLights = ({ darkMode }) => {
   const navigate = useNavigate();
   const [showAllImages, setShowAllImages] = useState(false);
 
@@ -39,8 +38,10 @@ const ChristmasTreeLights = ({ darkMode }) => {
     setShowAllImages(false);
   };
 
+  // Display first 5 images initially, or all images if showAllImages is true
   const imagesToShow = showAllImages ? images : images.slice(0, 4);
 
+  // Function to chunk images into rows of 5
   const chunkImages = (arr, size) => {
     const chunks = [];
     for (let i = 0; i < arr.length; i += size) {
@@ -60,11 +61,20 @@ const ChristmasTreeLights = ({ darkMode }) => {
         borderRadius: '8px',
       }}
     >
-      <Typography variant="h3" gutterBottom sx={{ mt: 5, mb: 5, color: darkMode ? '#FFD700' : '#000000', textAlign: 'center' }}>
-        Christmas Tree Lights
+      <Typography
+        variant="h3"
+        gutterBottom
+        sx={{
+          mt: 5,
+          mb: 5,
+          color: darkMode ? '#FFD700' : '#000000',
+          textAlign: 'center',
+        }}
+      >
+        Canopy String Lights
       </Typography>
       <Typography variant="body1" paragraph sx={{ mt: 5, mb: 5, textAlign: 'center' }}>
-        Bring your Christmas décor to life with professionally installed tree lighting. We offer twinkling, flashing, and solid modes, and even sync the lights with music if desired. From classic golds to playful multicolor, we turn trees into centerpieces of joy.
+        Create a magical atmosphere with our canopy string lights, perfect for outdoor weddings, garden parties, and romantic events. These delicate lights drape beautifully overhead, providing soft, twinkling illumination that transforms any space into an enchanting wonderland. Available in warm white or multicolor options.
       </Typography>
 
       {/* Image Gallery */}
@@ -81,7 +91,7 @@ const ChristmasTreeLights = ({ darkMode }) => {
             }}
           >
             {row.map((image, index) => {
-              const globalIndex = rowIndex * 4 + index;
+              const globalIndex = rowIndex * 5 + index;
               return (
                 <Zoom key={globalIndex}>
                   <Box
@@ -98,7 +108,7 @@ const ChristmasTreeLights = ({ darkMode }) => {
                     <CardMedia
                       component="img"
                       image={image}
-                      alt={`Christmas Tree Lights ${globalIndex + 1}`}
+                      alt={`Canopy String Lights ${globalIndex + 1}`}
                       sx={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
                     />
                   </Box>
@@ -111,7 +121,7 @@ const ChristmasTreeLights = ({ darkMode }) => {
 
       {/* See More/See Less Button */}
       <Box sx={{ mt: 4, textAlign: 'center' }}>
-        {!showAllImages && images.length > 4 ? (
+        {!showAllImages && images.length > 5 ? (
           <Button 
             onClick={handleSeeMore}
             sx={{
@@ -149,4 +159,4 @@ const ChristmasTreeLights = ({ darkMode }) => {
   );
 };
 
-export default ChristmasTreeLights;
+export default CanopyStringLights;

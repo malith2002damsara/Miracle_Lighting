@@ -5,14 +5,14 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/images/Services/Chandeliers/Chan1.jpg',
-  '/images/Services/Chandeliers/Chan2.jpg',
-  '/images/Services/Chandeliers/Chan3.jpg',
-  '/images/Services/Chandeliers/Chan4.jpg',
-  '/images/Services/Chandeliers/Chan5.jpg',
-  '/images/Services/Chandeliers/Chan6.jpg',
-  '/images/Services/Chandeliers/Chan7.jpg',
-  '/images/Services/Chandeliers/Chan8.jpg',
+  '/images/Chan1.jpg',
+  '/images/Chan2.jpg',
+  '/images/Chan3.jpg',
+  '/images/Chan4.jpg',
+  '/images/Chan5.jpg',
+  '/images/Chan6.jpg',
+  '/images/Chan7.jpg',
+  '/images/Chan8.jpg',
  
 ];
 

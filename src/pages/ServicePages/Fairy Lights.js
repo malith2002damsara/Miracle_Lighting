@@ -5,13 +5,16 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/images/fairy-lights-1.jpg',
-  '/images/fairy-lights-2.jpg',
-  '/images/fairy-lights-3.jpg',
-  '/images/fairy-lights-4.jpg',
-  '/images/fairy-lights-5.jpg',
-  '/images/fairy-lights-6.jpg',
-  '/images/fairy-lights-7.jpg',
+  '/images/Fair1.jpg',
+  '/images/Fair2.jpg',
+  '/images/Fair3.jpg',
+  '/images/Fair4.jpg',
+  '/images/Fair5.jpg',
+  '/images/Fair6.jpg',
+  '/images/Fair7.jpg',
+  '/images/Fair8.jpg',
+  
+  
 ];
 
 const FairyLights = ({ darkMode }) => {

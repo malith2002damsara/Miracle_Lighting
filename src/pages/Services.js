@@ -4,19 +4,20 @@ import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import ServiceCard from '../components/ServiceCard'; // Assuming ServiceCard is in the same directory
 
 const services = [
-  { title: 'Indoor Lighting', description: 'Custom interior event lighting', image: '/images/indoor-lighting-1.jpg', link: '/indoor-lighting' },
-  { title: 'Outdoor Lighting', description: 'Stylish weatherproof outdoor lighting', image: '/images/outdoor-lighting-1.jpg', link: '/outdoor-lighting' },
-  { title: 'Backdrop Lighting', description: 'Dramatic background lighting enhancements', image: '/images/backdrop-lighting-1.jpg', link: '/backdrop-lighting' },
-  { title: 'Chandeliers', description: 'Elegant hanging decorative lighting', image: '/images/chandelier-1.jpg', link: '/Chandeliers' },
-  { title: 'Chinese Lanterns', description: 'Soft-glow cultural lantern lighting', image: '/images/chinese-lanterns-1.jpg', link: '/Chinese-Lanterns' },
-  { title: 'Christmas Tree Lights', description: 'Festive tree lighting displays', image: '/images/christmas-tree-lights-1.jpg', link: '/Christmas-Tree-Lights' },
-  { title: 'Fairy Lights', description: 'Magical tiny twinkling lights', image: '/images/fairy-lights-1.jpg', link: '/Fairy-Lights' },
-  { title: 'Festoon Lights', description: 'Warm vintage-style hanging lights', image: '/images/festoon-lights-1.jpg', link: '/Festoon-Lights' },
-  { title: 'LightUp Letters', description: 'Illuminated decorative word displays', image: '/images/light-up-letters-1.jpg', link: '/Light-Up-Letters' },
-  { title: 'LightUp Reindeer Or Snowman', description: 'Festive glowing holiday figures', image: '/images/reindeer-snowman-1.jpg', link: '/Light-up-Reindeer-or-Snowman' },
-  { title: 'Pathway Lights', description: 'Decorative guided walkway lighting', image: '/images/pathway-lights-1.jpg', link: '/Pathway-Lights' },
-  { title: 'String Lights', description: 'Classic hanging string bulbs', image: '/images/string-lights-1.jpg', link: '/String-Lights' },
-  { title: 'Up Lighting', description: 'Colorful wall wash lighting', image: '/images/up-lighting-1.jpg', link: '/Up-lighting' },
+  { title: 'Indoor Lighting', description: 'Custom interior event lighting', image: '/images/Indo1.jpg', link: '/indoor-lighting' },
+  { title: 'Outdoor Lighting', description: 'Stylish weatherproof outdoor lighting', image: '/images/Outd1.jpg', link: '/outdoor-lighting' },
+  { title: 'Backdrop Lighting', description: 'Dramatic background lighting enhancements', image: '/images/Back1.jpg', link: '/backdrop-lighting' },
+  { title: 'Chandeliers', description: 'Elegant hanging decorative lighting', image: '/images/Chan.jpg', link: '/Chandeliers' },
+  { title: 'Chinese Lanterns', description: 'Soft-glow cultural lantern lighting', image: '/images/Chin1.jpg', link: '/Chinese-Lanterns' },
+  { title: 'Christmas Tree Lights', description: 'Festive tree lighting displays', image: '/images/Chri1.jpg', link: '/Christmas-Tree-Lights' },
+  { title: 'Fairy Lights', description: 'Magical tiny twinkling lights', image: '/images/Fair1.jpg', link: '/Fairy-Lights' },
+  { title: 'Festoon Lights', description: 'Warm vintage-style hanging lights', image: '/images/Fest1.jpg', link: '/Festoon-Lights' },
+  { title: 'LightUp Letters', description: 'Illuminated decorative word displays', image: '/images/Lett1.jpg', link: '/Light-Up-Letters' },
+  { title: 'LightUp Reindeer Or Snowman', description: 'Festive glowing holiday figures', image: '/images/Deer1.jpg', link: '/Light-up-Reindeer-or-Snowman' },
+  { title: 'Pathway Lights', description: 'Decorative guided walkway lighting', image: '/images/Path1.jpg', link: '/Pathway-Lights' },
+  { title: 'Temple Decorative Lighting', description: 'Classic hanging string bulbs', image: '/images/Temp1.jpg', link: '/Temple-Decorative-Lighting' },
+  { title: 'Up Lighting', description: 'Colorful wall wash lighting', image: '/images/Up1.jpg', link: '/Up-lighting' },
+  { title: 'Canopy String Lights', description: 'Colorful wall wash lighting', image: '/images/Cano1.jpg', link: '/Canopy-String-Lights' },
 ];
 
 const Services = ({ darkMode }) => {

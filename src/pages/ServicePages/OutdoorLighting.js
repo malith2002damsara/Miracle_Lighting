@@ -5,14 +5,14 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/images/outdoor-lighting-1.jpg',
-  '/images/outdoor-lighting-2.jpg',
-  '/images/outdoor-lighting-3.jpg',
-  '/images/outdoor-lighting-4.jpg',
-  '/images/outdoor-lighting-5.jpg',
-  '/images/outdoor-lighting-6.jpg',
-  '/images/outdoor-lighting-7.jpg',
-  '/images/outdoor-lighting-8.jpg',
+  '/images/Outd1.jpg',
+  '/images/Outd2.jpg',
+  '/images/Outd3.jpg',
+  '/images/Outd4.jpg',
+  '/images/Outd5.jpg',
+  '/images/Outd6.jpg',
+  '/images/Outd7.jpg',
+  '/images/Outd8.jpg',
 ];
 
 const OutdoorLighting = ({ darkMode }) => {

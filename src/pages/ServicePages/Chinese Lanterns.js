@@ -5,13 +5,15 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/images/chinese-lanterns-1.jpg',
-  '/images/chinese-lanterns-2.jpg',
-  '/images/chinese-lanterns-3.jpg',
-  '/images/chinese-lanterns-4.jpg',
-  '/images/chinese-lanterns-5.jpg',
-  '/images/chinese-lanterns-6.jpg',
-  '/images/chinese-lanterns-7.jpg',
+  '/images/Chin1.jpg',
+  '/images/Chin2.jpg',
+  '/images/Chin3.jpg',
+  '/images/Chin4.jpg',
+  '/images/Chin5.jpg',
+  '/images/Chin6.jpg',
+  '/images/Chin7.jpg',
+  '/images/Chin8.jpg',
+  
 ];
 
 const ChineseLanterns = ({ darkMode }) => {

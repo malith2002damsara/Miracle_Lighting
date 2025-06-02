@@ -5,14 +5,14 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/images/light-up-letters-1.jpg',
-  '/images/light-up-letters-2.jpg',
-  '/images/light-up-letters-3.jpg',
-  '/images/light-up-letters-4.jpg',
-  '/images/light-up-letters-5.jpg',
-  '/images/light-up-letters-6.jpg',
-  '/images/light-up-letters-7.jpg',
-  '/images/light-up-letters-8.jpg',
+  '/images/Lett1.jpg',
+ '/images/Lett2.jpg',
+ '/images/Lett3.jpg',
+ '/images/Lett4.jpg',
+ '/images/Lett5.jpg',
+ '/images/Lett6.jpg',
+ '/images/Lett7.jpg',
+ '/images/Lett8.jpg',
 ];
 
 const LightUpLetters = ({ darkMode }) => {

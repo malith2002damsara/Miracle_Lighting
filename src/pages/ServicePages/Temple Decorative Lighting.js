@@ -5,17 +5,17 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/images/string-lights-1.jpg',
-  '/images/string-lights-2.jpg',
-  '/images/string-lights-3.jpg',
-  '/images/string-lights-4.jpg',
-  '/images/string-lights-5.jpg',
-  '/images/string-lights-6.jpg',
-  '/images/string-lights-7.jpg',
-  '/images/string-lights-8.jpg',
+  '/images/Temp1.jpg',
+  '/images/Temp2.jpg',
+  '/images/Temp3.jpg',
+  '/images/Temp4.jpg',
+  '/images/Temp5.jpg',
+  '/images/Temp6.jpg',
+  '/images/Temp7.jpg',
+  '/images/Temp8.jpg',
 ];
 
-const StringLights = ({ darkMode }) => {
+const TempleDecorativeLighting = ({ darkMode }) => {
   const navigate = useNavigate();
   const [showAllImages, setShowAllImages] = useState(false);
 
@@ -59,11 +59,22 @@ const StringLights = ({ darkMode }) => {
         borderRadius: '8px',
       }}
     >
-      <Typography variant="h3" gutterBottom sx={{ mt: 5, mb: 5, color: darkMode ? '#FFD700' : '#000000', textAlign: 'center' }}>
-        String Lights
+      <Typography variant="h3" gutterBottom sx={{ 
+        mt: 5, 
+        mb: 5, 
+        color: darkMode ? '#FFD700' : '#000000', 
+        textAlign: 'center',
+        fontFamily: '"Playfair Display", serif'
+      }}>
+        Temple Decorative Lighting
       </Typography>
-      <Typography variant="body1" paragraph sx={{ mt: 5, mb: 5, textAlign: 'center' }}>
-        Our most versatile lighting—perfect for every occasion. Drape string lights across ceilings, patios, or trees to create a cozy, starry effect. Use warm white for elegance, or go bold with colors for a fun and vibrant feel.
+      <Typography variant="body1" paragraph sx={{ 
+        mt: 5, 
+        mb: 5, 
+        textAlign: 'center',
+        fontFamily: '"Roboto", sans-serif'
+      }}>
+        Illuminate sacred spaces with our exquisite temple lighting solutions. Our decorative lights combine traditional elegance with modern illumination technology, creating a divine ambiance for worship and meditation. From intricate hanging lanterns to subtle accent lighting, we offer designs that enhance spiritual atmospheres while maintaining energy efficiency.
       </Typography>
 
       {/* Image Gallery */}
@@ -97,7 +108,7 @@ const StringLights = ({ darkMode }) => {
                     <CardMedia
                       component="img"
                       image={image}
-                      alt={`String Lights ${globalIndex + 1}`}
+                      alt={`Temple Lighting ${globalIndex + 1}`}
                       sx={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
                     />
                   </Box>
@@ -148,4 +159,4 @@ const StringLights = ({ darkMode }) => {
   );
 };
 
-export default StringLights;
+export default TempleDecorativeLighting;

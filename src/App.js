@@ -29,7 +29,8 @@ import FestoonLights from './pages/ServicePages/Festoon Lights';
 import LightUpLetters from './pages/ServicePages/Light Up Letters';
 import LightUpReindeerOrSnowman from './pages/ServicePages/Light-up Reindeer or Snowman';
 import PathwayLights from './pages/ServicePages/Pathway Lights';
-import StringLights from './pages/ServicePages/String Lights';
+import TempleDecorativeLighting from './pages/ServicePages/Temple Decorative Lighting';
+import CanopyStringLights from './pages/ServicePages/Canopy String Lights';
 import UpLighting from './pages/ServicePages/Up-lighting';
 
 // New Imports for Event pages
@@ -91,8 +92,10 @@ const App = () => {
           <Route path="/Light-Up-Letters" element={<LightUpLetters darkMode={darkMode}/>} />
           <Route path="/Light-up-Reindeer-or-Snowman" element={<LightUpReindeerOrSnowman darkMode={darkMode}/>} />
           <Route path="/Pathway-Lights" element={<PathwayLights darkMode={darkMode}/>} />
-          <Route path="/String-Lights" element={<StringLights darkMode={darkMode}/>} />
+          <Route path="/Temple Decorative Lighting" element={<TempleDecorativeLighting darkMode={darkMode}/>} />
+          <Route path="/Canopy String Lights" element={<CanopyStringLights darkMode={darkMode}/>} />
           <Route path="/Up-lighting" element={<UpLighting darkMode={darkMode}/>} />
+          
           
           <Route path="/wedding" element={<Wedding darkMode={darkMode}/>} />
           <Route path="/birthday-parties" element={<BirthdayParties darkMode={darkMode} />} />

@@ -159,8 +159,11 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
   <MenuItem component={Link} to="/Up-lighting" onClick={handleClose}>
     Up Lighting
   </MenuItem>
-  <MenuItem component={Link} to="/String-Lights" onClick={handleClose}>
-    String Lights
+  <MenuItem component={Link} to="/Canopy-String-Lights" onClick={handleClose}>
+    Canopy String Lights
+  </MenuItem>
+  <MenuItem component={Link} to="/Temple-Decorative-Lighting" onClick={handleClose}>
+    Temple Decorative Lighting
   </MenuItem>
   <MenuItem component={Link} to="/Pathway-Lights" onClick={handleClose}>
     Pathway Lights

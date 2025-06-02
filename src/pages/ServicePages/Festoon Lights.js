@@ -5,13 +5,14 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/images/festoon-lights-1.jpg',
-  '/images/festoon-lights-2.jpg',
-  '/images/festoon-lights-3.jpg',
-  '/images/festoon-lights-4.jpg',
-  '/images/festoon-lights-5.jpg',
-  '/images/festoon-lights-6.jpg',
-  '/images/festoon-lights-7.jpg',
+  '/images/Fest1.jpg',
+  '/images/Fest2.jpg',
+ '/images/Fest3.jpg',
+  '/images/Fest4.jpg',
+  '/images/Fest5.jpg',
+  '/images/Fest6.jpg',
+  '/images/Fest7.jpg',
+  '/images/Fest8.jpg',
 ];
 
 const FestoonLights = ({ darkMode }) => {

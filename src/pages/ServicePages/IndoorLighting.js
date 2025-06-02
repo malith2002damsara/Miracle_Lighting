@@ -5,14 +5,14 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/images/indoor-lighting-1.jpg',
-  '/images/indoor-lighting-2.jpg',
-  '/images/indoor-lighting-3.jpg',
-  '/images/indoor-lighting-4.jpg',
-  '/images/indoor-lighting-5.jpg',
-  '/images/indoor-lighting-6.jpg',
-  '/images/indoor-lighting-7.jpg',
-  '/images/indoor-lighting-8.jpg',
+  '/images/Indo1.jpg',
+  '/images/Indo2.jpg',
+  '/images/Indo3.jpg',
+  '/images/Indo4.jpg',
+  '/images/Indo5.jpg',
+  '/images/Indo6.jpg',
+  '/images/Indo7.jpg',
+  '/images/Indo8.jpg',
 ];
 
 const IndoorLighting = ({ darkMode }) => {

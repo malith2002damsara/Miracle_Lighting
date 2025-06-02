@@ -5,14 +5,14 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/images/pathway-lights-1.jpg',
-  '/images/pathway-lights-2.jpg',
-  '/images/pathway-lights-3.jpg',
-  '/images/pathway-lights-4.jpg',
-  '/images/pathway-lights-5.jpg',
-  '/images/pathway-lights-6.jpg',
-  '/images/pathway-lights-7.jpg',
-  '/images/pathway-lights-8.jpg',
+  '/images/Path1.jpg',
+  '/images/Path2.jpg',
+  '/images/Path3.jpg',
+  '/images/Path4.jpg',
+  '/images/Path5.jpg',
+  '/images/Path6.jpg',
+  '/images/Path7.jpg',
+  '/images/Path8.jpg',
 ];
 
 const PathwayLights = ({ darkMode }) => {

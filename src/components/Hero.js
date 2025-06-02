@@ -17,7 +17,7 @@ const Hero = ({darkMode}) => {
         textAlign: 'center',
         padding: { xs: 2, sm: 4 },
         overflow: 'hidden',
-        backgroundImage: 'url(/images/pages/Hero.jpg)',
+        backgroundImage: 'url(/images/Hero.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         paddingTop: { xs: '10vh', sm: '15vh' }, // Adjust top padding for text placement

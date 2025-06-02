@@ -5,14 +5,14 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/images/reindeer-snowman-1.jpg',
-  '/images/reindeer-snowman-2.jpg',
-  '/images/reindeer-snowman-3.jpg',
-  '/images/reindeer-snowman-4.jpg',
-  '/images/reindeer-snowman-5.jpg',
-  '/images/reindeer-snowman-6.jpg',
-  '/images/reindeer-snowman-7.jpg',
-   '/images/reindeer-snowman-8.jpg',
+  '/images/Deer1.jpg',
+  '/images/Deer2.jpg',
+  '/images/Deer3.jpg',
+  '/images/Deer4.jpg',
+  '/images/Deer5.jpg',
+  '/images/Deer6.jpg',
+  '/images/Deer7.jpg',
+  '/images/Deer8.jpg',
 ];
 
 const LightUpReindeerOrSnowman = ({ darkMode }) => {

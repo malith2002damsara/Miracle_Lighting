@@ -5,14 +5,14 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/images/up-lighting-1.jpg',
-  '/images/up-lighting-2.jpg',
-  '/images/up-lighting-3.jpg',
-  '/images/up-lighting-4.jpg',
-  '/images/up-lighting-5.jpg',
-  '/images/up-lighting-6.jpg',
-  '/images/up-lighting-7.jpg',
-  '/images/up-lighting-8.jpg',
+  '/images/Up1.jpg',
+  '/images/Up2.jpg',
+  '/images/Up3.jpg',
+  '/images/Up4.jpg',
+  '/images/Up5.jpg',
+  '/images/Up6.jpg',
+  '/images/Up7.jpg',
+  '/images/Up8.jpg',
 ];
 
 const UpLighting = ({ darkMode }) => {
