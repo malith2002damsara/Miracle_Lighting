@@ -194,7 +194,7 @@ const Hero = ({ darkMode }) => {
           ease: 'easeInOut'
         }}
       >
-        ↓
+  
       </motion.div>
     </Box>
   );

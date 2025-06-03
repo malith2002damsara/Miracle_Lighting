@@ -6,7 +6,7 @@ const services = [
   {
     title: 'Wedding Decor',
     description: 'Romantic custom lighting designs',
-    image: '/wedding.jpg',
+    image: '/images/Fair6.jpg',
     link: '/wedding',
   },
   {
@@ -22,9 +22,9 @@ const services = [
     link: '/christmas-parties',
   },
   {
-    title: 'Kathina Festival',
+    title: 'Religious festivals',
     description: 'Spiritual respectful lighting solutions',
-    image: '/kathina2.jpg',
+    image: '/images/Temp2.jpg',
     link: '/kathina-festival',
   },
 ];
@@ -44,7 +44,7 @@ const HomeCard = ({ darkMode }) => {
     >
       <Typography 
                    variant="h2" 
-                   sx={{ color: darkMode ? '#FFD700' : '#4A4A4A', mb: 7, mt: 10 }}
+                   sx={{ color: darkMode ? '#FFD700' : '#4A4A4A', mb: 7}}
                  >
                   Main Events
                  </Typography>

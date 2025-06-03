@@ -4,11 +4,11 @@ import { useNavigate } from 'react-router-dom';
 import './Slider.css';
 
 const slides = [
-  { name: 'Wedding 1', img: '/wedding.jpg', des: 'X-Dev, Transforming code into visual poetry..!', topic: 'WEDDING', path: '/indoor-lighting' },
-  { name: 'Wedding 2', img: '/wedding1.jpg', des: 'X-Dev, Transforming code into visual poetry..!', topic: 'WEDDING', path: '/outdoor-lighting' },
-  { name: 'Wedding 3', img: '/wedding2.jpg', des: 'X-Dev, Transforming code into visual poetry..!', topic: 'WEDDING', path: '/custom-designs' },
-  { name: 'Wedding 4', img: '/wedding3.jpg', des: 'X-Dev, Transforming code into visual poetry..!', topic: 'WEDDING', path: '/stage-lighting' },
-  { name: 'Wedding 5', img: '/wedding12.jpg', des: 'X-Dev, Transforming code into visual poetry..!', topic: 'WEDDING', path: '/backdrop-lighting' },
+  { name: 'Wedding 1', img: '/images/Chan3.jpg', des: 'X-Dev, Transforming code into visual poetry..!', topic: 'WEDDING', path: '/indoor-lighting' },
+  { name: 'Wedding 2', img: '/images/Back6.jpg', des: 'X-Dev, Transforming code into visual poetry..!', topic: 'WEDDING', path: '/outdoor-lighting' },
+  { name: 'Wedding 3', img: '/images/Cano8.jpg', des: 'X-Dev, Transforming code into visual poetry..!', topic: 'WEDDING', path: '/custom-designs' },
+  { name: 'Wedding 4', img: '/images/Fair13.jpg', des: 'X-Dev, Transforming code into visual poetry..!', topic: 'WEDDING', path: '/stage-lighting' },
+  { name: 'Wedding 5', img: '/images/Temp2.jpg', des: 'X-Dev, Transforming code into visual poetry..!', topic: 'WEDDING', path: '/backdrop-lighting' },
 ];
 
 const Slider = () => {

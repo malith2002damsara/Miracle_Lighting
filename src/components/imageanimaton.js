@@ -5,12 +5,11 @@ import { motion } from 'framer-motion';
 import './imageanimaton.css';
 
 const images = [
-  '/1.jpg',
-  '/2.jpg',
-  '/3.jpg',
-  '/4.jpg',
-  '/5.jpg',
-  '/6.jpg',
+  'images/Chan1.jpg',
+  'images/Up2.jpg',
+  'images/Fair2.jpg',
+  'images/Fair19.jpg',
+  'images/Chin7.jpg',
 ];
 
 const content = [
@@ -19,8 +18,11 @@ const content = [
   "We offer unique, custom lighting designs tailored to your needs.",
   "Dazzling stage lighting for performances and events.",
   "Enchanting backdrop lighting perfect for photo sessions.",
-  "My name is Malith Damsara, and I have a wedding website.",
 ];
+
+// Fixed dimensions for all images
+const IMAGE_WIDTH = 600;
+const IMAGE_HEIGHT = 400;
 
 const settings = {
   dots: true,
@@ -29,7 +31,7 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 4000,
+  autoplaySpeed: 4000, // Changed from 4000 to 3000 for 3-second interval
   fade: true,
 };
 
@@ -40,38 +42,79 @@ const ImageAnimation = ({ darkMode }) => {
     setCurrentIndex(index);
   };
 
+  // Animation variants
+  const imageVariants = {
+    hidden: { opacity: 0, scale: 0.95 },
+    visible: { 
+      opacity: 1, 
+      scale: 1,
+      transition: {
+        duration: 0.8,
+        ease: "easeOut"
+      }
+    }
+  };
+
+  const textVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        ease: "easeOut",
+        delay: 0.3
+      }
+    }
+  };
+
   return (
     <Box 
       sx={{ 
         display: 'flex', 
-        flexDirection: { xs: 'column', md: 'row' }, // Column on mobile, row on desktop
+        flexDirection: { xs: 'column', md: 'row' },
         alignItems: 'center', 
         justifyContent: 'center', 
         py: { xs: 2, sm: 4 }, 
-        px: { xs: 2, sm: 5 } 
+        px: { xs: 2, sm: 5 },
+        backgroundColor: darkMode ? '#121212' : '#f5f5f5'
       }}
     >
       {/* Left Side: Slider */}
-      <Box sx={{ width: { xs: '90%', sm: '70%', md: '50%' } }}>
+      <Box sx={{ 
+        width: { xs: '100%', sm: '70%', md: '50%' },
+        maxWidth: IMAGE_WIDTH,
+        padding: 2
+      }}>
         <Slider {...settings} afterChange={handleAfterChange}>
           {images.map((image, index) => (
             <div key={index} className="slick-slide">
-              <motion.img
-                src={image}
-                alt={`Slide ${index}`}
-                className="animated-image"
-                style={{ 
-                  width: '100%', 
-                  height: 'auto', 
-                  maxHeight: { xs: '250px', sm: '300px', md: '400px' }, 
-                  objectFit: 'cover', 
-                  borderRadius: '10px' 
+              <motion.div
+                initial="hidden"
+                animate="visible"
+                variants={imageVariants}
+                style={{
+                  width: '100%',
+                  height: IMAGE_HEIGHT,
+                  position: 'relative',
+                  overflow: 'hidden',
+                  borderRadius: '10px',
+                  boxShadow: darkMode 
+                    ? '0 4px 20px rgba(255, 215, 0, 0.2)' 
+                    : '0 4px 20px rgba(0, 0, 0, 0.1)'
                 }}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 1 }}
-              />
+              >
+                <img
+                  src={image}
+                  alt={`Slide ${index}`}
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    objectPosition: 'center'
+                  }}
+                />
+              </motion.div>
             </div>
           ))}
         </Slider>
@@ -79,20 +122,26 @@ const ImageAnimation = ({ darkMode }) => {
 
       {/* Right Side: Content */}
       <Box sx={{ 
-        width: { xs: '90%', sm: '70%', md: '50%' }, 
+        width: { xs: '100%', sm: '70%', md: '50%' },
+        maxWidth: IMAGE_WIDTH,
         textAlign: 'center', 
-        mt: { xs: 3, md: 0 } 
+        mt: { xs: 3, md: 0 },
+       
       }}>
         <motion.div
           key={currentIndex}
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -20 }}
-          transition={{ duration: 1, ease: "easeInOut" }}
+          initial="hidden"
+          animate="visible"
+          variants={textVariants}
         >
           <Typography 
             variant="h5" 
-            sx={{ color: darkMode ? '#FFD700' : '#000000', px: { xs: 1, sm: 2 } }}
+            sx={{ 
+              color: darkMode ? '#FFD700' : '#000000',
+              mb: 2,
+              fontWeight: 'bold',
+              fontSize: { xs: '1.2rem', sm: '1.5rem' }
+            }}
           >
             {content[currentIndex]}
           </Typography>

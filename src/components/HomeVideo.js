@@ -31,7 +31,7 @@ const HomeVideo = ({ darkMode }) => {
             loop
             muted
             style={{
-              width: '100%',
+              width: '43%',
               height: '80%',
               maxHeight: '550px',
               borderRadius: '10px',
@@ -78,9 +78,9 @@ const HomeVideo = ({ darkMode }) => {
               }
             }}
              component={Link}
-              to="/services"
+              to="/event"
           >
-            Explore Our Services
+            Explore Our Events
           </Button>
         </Box>
       </Box>
@@ -154,7 +154,7 @@ const HomeVideo = ({ darkMode }) => {
             loop
             muted
             style={{
-              width: '100%',
+              width: '43%',
               height: '80%',
               maxHeight: '550px',
               borderRadius: '10px',
@@ -179,76 +179,7 @@ const HomeVideo = ({ darkMode }) => {
           gap: 4,
         }}
       >
-        {/* Third Video */}
-        <Box
-          sx={{
-            width: { xs: '100%', md: '50%' },
-            display: 'flex',
-            justifyContent: 'center',
-            mb: { xs: 2, md: 0 },
-          }}
-        >
-          <video
-            autoPlay
-            loop
-            muted
-            style={{
-              width: '100%',
-              height: '80%',
-              maxHeight: '550px',
-              borderRadius: '10px',
-              boxShadow: darkMode ? '0 0 20px rgba(255, 215, 0, 0.5)' : '0 0 20px rgba(0,0,0,0.2)',
-            }}
-          >
-            <source src="/videos/3.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </Box>
-
-        {/* Third Content Section */}
-        <Box
-          sx={{
-            width: { xs: '90%', md: '50%' },
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'center', // Center content horizontally
-            textAlign: 'center', // Center text alignment
-            px: { xs: 2, md: 4 },
-            color: darkMode ? '#FFD700' : '#4A4A4A',
-          }}
-        >
-          <Typography variant="h4" sx={{ mb: 3, fontWeight: 'bold' , color: darkMode ? '#FFD700' : '#4A4A4A',}}>
-            Why Choose Miracle Lighting?
-          </Typography>
-          <Typography variant="body1" sx={{ mb: 2, fontSize: '1.1rem' }}>
-            • Professional lighting design consultation
-          </Typography>
-          <Typography variant="body1" sx={{ mb: 2, fontSize: '1.1rem' }}>
-            • High-quality equipment and installations
-          </Typography>
-          <Typography variant="body1" sx={{ mb: 2, fontSize: '1.1rem' }}>
-            • Experienced technical team
-          </Typography>
-          <Typography variant="body1" sx={{ mb: 3, fontSize: '1.1rem' }}>
-            • Custom solutions for every budget
-          </Typography>
-          <Button 
-            variant="contained" 
-            sx={{ 
-              backgroundColor: darkMode ? '#FFD700' : '#4A4A4A',
-              color: darkMode ? '#000' : '#FFF',
-              '&:hover': {
-                backgroundColor: darkMode ? '#4A4A4A' : '#FFD700',
-                color: darkMode ? '#FFF' : '#000',
-              }
-            }}
-            component={Link}
-              to="/contact"
-          >
-            Contact Us Today
-          </Button>
-        </Box>
+       
       </Box>
     </>
   );
