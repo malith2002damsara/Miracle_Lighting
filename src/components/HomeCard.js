@@ -53,7 +53,6 @@ const HomeCard = ({ darkMode }) => {
           <Grid item key={index} xs={12} sm={6} md={3}>
             <Box
               sx={{
-                width: '100%',
                 maxWidth: '320px',
                 height: '100%',
                 borderRadius: '25px',
@@ -65,7 +64,7 @@ const HomeCard = ({ darkMode }) => {
                 overflow: 'hidden',
                 textAlign: 'center',
                 backgroundColor: darkMode ? '#666' : '#ffffff', // Gray in dark mode, white in light mode
-                padding: '20px',
+                padding: '10px',
                 transition: 'transform 0.3s ease',
                 '&:hover': {
                   transform: 'scale(1.05)',

@@ -22,7 +22,7 @@ const services = [
     link: '/christmas-parties',
   },
   {
-    title: 'Religious festivals',
+    title: 'Kathina Festival',
     description: 'Spiritual respectful lighting solutions',
     image: '/images/Temp2.jpg',
     link: '/kathina-festival',
@@ -34,7 +34,7 @@ const Event = ({ darkMode }) => {
     <Box
       sx={{
         py: { xs: 6, sm: 10, md: 15 },
-        px: { xs: 3, sm: 10, md: 15 }, // Reduced padding on mobile
+        px: { xs: 3, sm: 10, md: 15 },
         textAlign: 'center',
         backgroundColor: darkMode ? '#000000' : '#FFFFFF',
         display: 'flex',
@@ -56,9 +56,9 @@ const Event = ({ darkMode }) => {
         Our Main Events
       </Typography>
       
-      <Grid container spacing={4} justifyContent="center"> {/* Reduced spacing for mobile */}
+      <Grid container spacing={4} justifyContent="center">
         {services.map((service, index) => (
-          <Grid item key={index} xs={6} sm={6} md={3}> {/* Changed xs from 12 to 6 for 2 cards per row */}
+          <Grid item key={index} xs={12} sm={6} md={3}> {/* Changed xs to 12 for full width on mobile */}
             <Box
               sx={{
                 width: '100%',
