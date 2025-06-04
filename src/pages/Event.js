@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react'; // Import useEffect
 import { Grid, Typography, Box } from '@mui/material';
 import ServiceCard from '../components/ServiceCard';
 
@@ -30,6 +30,11 @@ const services = [
 ];
 
 const Event = ({ darkMode }) => {
+  // Scroll to top on component mount
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <Box
       sx={{
@@ -57,33 +62,15 @@ const Event = ({ darkMode }) => {
       </Typography>
       
       <Grid container spacing={4} justifyContent="center">
-        {services.map((service, index) => (
-          <Grid item key={index} xs={12} sm={6} md={3}> {/* Changed xs to 12 for full width on mobile */}
-            <Box
-              sx={{
-                width: '100%',
-                maxWidth: '400px',
-                height: '100%',
-                borderRadius: '25px',
-                boxShadow: '0 6px 15px rgba(0, 0, 0, 0.2)',
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'center',
-                overflow: 'hidden',
-                textAlign: 'center',
-                backgroundColor: darkMode ? '#333' : '#FFFFFF',
-                padding: '10px',
-                transition: 'transform 0.3s ease',
-                '&:hover': {
-                  transform: 'scale(1.05)',
-                  backgroundColor: darkMode ? '#333' : '#FFFFFF',
-                },
-                color: darkMode ? '#FFF017' : '#000',
-              }}
-            >
-              <ServiceCard {...service} />
-            </Box>
+        {services.map((service) => (
+          <Grid item xs={12} sm={6} md={4} lg={3} key={service.title}>
+            <ServiceCard
+              title={service.title}
+              description={service.description}
+              image={service.image}
+              link={service.link}
+              darkMode={darkMode}
+            />
           </Grid>
         ))}
       </Grid>
