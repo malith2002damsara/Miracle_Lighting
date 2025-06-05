@@ -63,9 +63,8 @@ const OutdoorLighting = ({ darkMode }) => {
         Outdoor Lighting
       </Typography>
       <Typography variant="body1" paragraph sx={{ mt: 5, mb: 5, textAlign: 'center' }}>
-        No matter the size or location, we brighten outdoor events with stylish, weatherproof lighting setups. Tree wrapping, tent lighting, outdoor chandeliers, and flood lighting—all arranged to highlight the beauty of your natural surroundings.
-      </Typography>
-
+     Illuminate your garden or event venue with stunning outdoor lighting that creates a captivating atmosphere. Our lighting designs are ideal for weddings, festivals, or night-time celebrations. With carefully placed lights, we ensure safety and style, making your event.
+     </Typography>
       {/* Image Gallery */}
       <Box sx={{ mt: 4 }}>
         {imageRows.map((row, rowIndex) => (

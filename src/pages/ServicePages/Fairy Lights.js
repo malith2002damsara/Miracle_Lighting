@@ -65,8 +65,7 @@ const FairyLights = ({ darkMode }) => {
         Fairy Lights
       </Typography>
       <Typography variant="body1" paragraph sx={{ mt: 5, mb: 5, textAlign: 'center' }}>
-        Add magic to any space with thousands of tiny twinkling lights. Wrap them around columns, line tent ceilings, or fill mason jars for table décor. Ideal for weddings, birthdays, and romantic outdoor events where elegance meets whimsy.
-      </Typography>
+      Fairy lights are ideal for adding a dreamy and whimsical glow to any setting. Perfect for draping across tables, trees, or ceilings, these delicate lights bring subtle charm. They’re especially popular for weddings, birthdays, and intimate events where ambiance and sparkle go hand in hand.</Typography>
 
       {/* Image Gallery */}
       <Box sx={{ mt: 4 }}>

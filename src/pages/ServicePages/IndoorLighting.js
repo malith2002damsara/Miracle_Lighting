@@ -56,8 +56,8 @@ const IndoorLighting = ({ darkMode }) => {
         Indoor Lighting
       </Typography>
       <Typography variant="body1" paragraph sx={{ mt: 5, mb: 5, textAlign: 'center' }}>
-        We create dynamic lighting solutions for all types of indoor venues—banquet halls, temples, homes, and hotels. Whether you want cozy ambiance or vibrant party vibes, we customize everything from ceiling lights to stage enhancements.
-      </Typography>
+   Transform any indoor space into a bright setting with our bespoke indoor lighting solutions. Whether it’s a wedding, corporate event, or family gathering, we offer a variety of styles to match your theme and enhance the mood. From soft, warm tones to dynamic color effects, our lighting adds sophistication and charm.
+  </Typography>
 
       {/* Image Gallery */}
       <Box sx={{ mt: 4 }}>

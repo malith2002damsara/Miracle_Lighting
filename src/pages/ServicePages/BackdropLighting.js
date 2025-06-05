@@ -76,8 +76,7 @@ const BackdropLighting = ({ darkMode }) => {
         Backdrop Lighting
       </Typography>
       <Typography variant="body1" paragraph sx={{ mt: 5, mb: 5, textAlign: 'center' }}>
-        Transform any backdrop into a visually stunning highlight. Whether it's a ceremonial curtain, a photo booth wall, or a wedding stage, our backdrop lighting adds depth, drama, and a professional touch. Available in dynamic color schemes and adjustable brightness for day or night events.
-      </Typography>
+     Make your backdrop the center of attention with our specialized backdrop lighting services. Ideal for photo booths, stages, or sweetheart tables, we layer light to highlight textures and colors. This adds depth and creates a stunning background for pictures and visual appeal throughout the event. </Typography>
 
       {/* Image Gallery */}
       <Box sx={{ mt: 4 }}>

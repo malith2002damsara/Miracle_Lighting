@@ -64,8 +64,8 @@ const ChristmasTreeLights = ({ darkMode }) => {
         Christmas Tree Lights
       </Typography>
       <Typography variant="body1" paragraph sx={{ mt: 5, mb: 5, textAlign: 'center' }}>
-        Bring your Christmas décor to life with professionally installed tree lighting. We offer twinkling, flashing, and solid modes, and even sync the lights with music if desired. From classic golds to playful multicolor, we turn trees into centerpieces of joy.
-      </Typography>
+      From classic white to colorful themes, our lights enhance your tree’s charm and draw attention. Whether it’s a home celebration or a public display, we bring the season to life with every twinkle.
+</Typography>
 
       {/* Image Gallery */}
       <Box sx={{ mt: 4 }}>

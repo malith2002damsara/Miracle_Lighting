@@ -76,7 +76,7 @@ const App = () => {
           <Route path="/services" element={<Services darkMode={darkMode} />} />
           <Route path="/event" element={<Event darkMode={darkMode} />} />
           <Route path="/contact" element={<ContactUs darkMode={darkMode} />} />
-          <Route path="/about" element={<AboutUs darkMode={darkMode} />} />
+          <Route path="/about-us" element={<AboutUs darkMode={darkMode} />} />
           <Route path="/FAQ" element={<FAQ darkMode={darkMode}/>} />
           <Route path="/jobs" element={<Jobs darkMode={darkMode} />} />
         
@@ -92,15 +92,15 @@ const App = () => {
           <Route path="/Light-Up-Letters" element={<LightUpLetters darkMode={darkMode}/>} />
           <Route path="/Light-up-Reindeer-or-Snowman" element={<LightUpReindeerOrSnowman darkMode={darkMode}/>} />
           <Route path="/Pathway-Lights" element={<PathwayLights darkMode={darkMode}/>} />
-          <Route path="/Temple Decorative Lighting" element={<TempleDecorativeLighting darkMode={darkMode}/>} />
-          <Route path="/Canopy String Lights" element={<CanopyStringLights darkMode={darkMode}/>} />
+          <Route path="/Temple-Decorative-Lighting" element={<TempleDecorativeLighting darkMode={darkMode}/>} />
+          <Route path="/Canopy-String-Lights" element={<CanopyStringLights darkMode={darkMode}/>} />
           <Route path="/Up-lighting" element={<UpLighting darkMode={darkMode}/>} />
           
           
           <Route path="/wedding" element={<Wedding darkMode={darkMode}/>} />
           <Route path="/birthday-parties" element={<BirthdayParties darkMode={darkMode} />} />
           <Route path="/christmas-parties" element={<ChristmasParties darkMode={darkMode} />} />
-          <Route path="/kathina-festival" element={<KathinaFestival darkMode={darkMode}/>} />
+          <Route path="/Religious-festival" element={<KathinaFestival darkMode={darkMode}/>} />
 
         </Routes>
         <FloatingButtons darkMode={darkMode} />

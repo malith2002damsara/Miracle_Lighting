@@ -57,7 +57,7 @@ const HomeVideo = ({ darkMode }) => {
           }}
         >
           <Typography variant="h4" sx={{ mb: 3, fontWeight: 'bold', color: darkMode ? '#FFD700' : '#4A4A4A', }}>
-            Transform Your Events With Magic Lighting
+            Transform Your Events With Miracle Lighting
           </Typography>
           <Typography variant="body1" sx={{ mb: 3, fontSize: '1.1rem' }}>
             At Miracle Lighting, we specialize in creating breathtaking lighting designs that elevate any occasion. 

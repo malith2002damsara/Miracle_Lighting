@@ -63,8 +63,8 @@ const PathwayLights = ({ darkMode }) => {
         Pathway Lights
       </Typography>
       <Typography variant="body1" paragraph sx={{ mt: 5, mb: 5, textAlign: 'center' }}>
-        Ensure both beauty and safety with tastefully lit paths. From lanterns and LED pebbles to solar sticks and illuminated arches, our pathway lighting guides your guests while adding visual interest to your event layout.
-      </Typography>
+     Our pathway lighting not only enhances safety but also brings a decorative touch to your venue's walkways.  we  line paths with elegance and care. This service is perfect for weddings, garden parties, or temple events where guidance meets glamour.
+  </Typography>
 
       {/* Image Gallery */}
       <Box sx={{ mt: 4 }}>

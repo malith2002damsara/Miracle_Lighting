@@ -82,7 +82,7 @@ const KathinaFestival = ({ darkMode }) => {
          
         }}
       >
-        Kathina Festival
+        Religious Festival
       </Typography>
       <Typography 
         variant="body1" 
@@ -98,8 +98,7 @@ const KathinaFestival = ({ darkMode }) => {
           padding: '0 20px',
         }}
       >
-        Honor tradition with lighting that enhances the spiritual grace of the Kathina ceremony. We provide subtle, respectful lighting setups including soft-colored backdrop lights, elegant lantern displays, and ground lights for processions or evening sermons. Let the lighting speak to the solemnity and beauty of the occasion.
-      </Typography>
+    Celebrate the spiritual significance of festivals like Kathina, Vesak, and Poson with vibrant and respectful lighting displays. From traditional lanterns to modern thematic designs, our lighting captures the essence of your religious celebration. We blend creativity with cultural reverence to create an atmosphere that inspires peace, devotion, and festivity. </Typography>
 
       <Box sx={{ mt: 4 }}>
         {imageRows.map((row, rowIndex) => (

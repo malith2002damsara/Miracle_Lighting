@@ -64,7 +64,7 @@ const TempleDecorativeLighting = ({ darkMode }) => {
         mb: 5, 
         color: darkMode ? '#FFD700' : '#000000', 
         textAlign: 'center',
-        fontFamily: '"Playfair Display", serif'
+        
       }}>
         Temple Decorative Lighting
       </Typography>
@@ -72,10 +72,9 @@ const TempleDecorativeLighting = ({ darkMode }) => {
         mt: 5, 
         mb: 5, 
         textAlign: 'center',
-        fontFamily: '"Roboto", sans-serif'
+        
       }}>
-        Illuminate sacred spaces with our exquisite temple lighting solutions. Our decorative lights combine traditional elegance with modern illumination technology, creating a divine ambiance for worship and meditation. From intricate hanging lanterns to subtle accent lighting, we offer designs that enhance spiritual atmospheres while maintaining energy efficiency.
-      </Typography>
+       Honor tradition with our temple lighting services designed for religious events like Kathina,Vesak or poson. We provide respectful, artistic lighting that highlights the beauty of temple architecture. Our service adds serenity, reverence, and grandeur to the occasion, making it both sacred and visually unforgettable. </Typography>
 
       {/* Image Gallery */}
       <Box sx={{ mt: 4 }}>

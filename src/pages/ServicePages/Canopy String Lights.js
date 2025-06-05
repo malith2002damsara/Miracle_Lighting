@@ -74,8 +74,7 @@ const CanopyStringLights = ({ darkMode }) => {
         Canopy String Lights
       </Typography>
       <Typography variant="body1" paragraph sx={{ mt: 5, mb: 5, textAlign: 'center' }}>
-        Create a magical atmosphere with our canopy string lights, perfect for outdoor weddings, garden parties, and romantic events. These delicate lights drape beautifully overhead, providing soft, twinkling illumination that transforms any space into an enchanting wonderland. Available in warm white or multicolor options.
-      </Typography>
+      Create a magical night sky effect with our canopy string lights. Ideal for weddings, receptions, or night-time events, these lights are woven overhead in artistic patterns. They deliver a romantic ambiance and are perfect for open areas that need warmth and visual depth.  </Typography>
 
       {/* Image Gallery */}
       <Box sx={{ mt: 4 }}>

@@ -36,7 +36,7 @@ const Footer = ({ darkMode }) => {
           <Grid container spacing={8} justifyContent="center">
             <Grid item xs={6}>
               <Link href="/" color="inherit" sx={{ display: 'block', mb: 1 }}>Home</Link>
-              <Link href="/about" color="inherit" sx={{ display: 'block', mb: 1 }}>About</Link>
+              <Link href="/about-us" color="inherit" sx={{ display: 'block', mb: 1 }}>About Us</Link>
               <Link href="/services" color="inherit" sx={{ display: 'block', mb: 1 }}>Services</Link>
             </Grid>
             <Grid item xs={6}>
@@ -57,7 +57,7 @@ const Footer = ({ darkMode }) => {
             Our Company
           </Typography>
           <Link href="/jobs" color="inherit" sx={{ display: 'block', mb: 1 }}>Jobs</Link>
-          <Link href="/about" color="inherit" sx={{ display: 'block', mb: 1 }}>About Us</Link>
+          <Link href="/about-us" color="inherit" sx={{ display: 'block', mb: 1 }}>About Us</Link>
         </Grid>
 
         {/* Column 3: Quick Contact */}

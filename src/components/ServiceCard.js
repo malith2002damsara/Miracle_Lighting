@@ -96,7 +96,7 @@ const ServiceCard = ({ title, description, image, link, darkMode }) => {
                
               }}
             >
-              Learn More
+               More Details
             </Button>
           </CardContent>
         </Grid>

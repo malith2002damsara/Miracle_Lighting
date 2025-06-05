@@ -8,7 +8,7 @@ import { useLocation } from 'react-router-dom';
 const Gallery = ({ darkMode }) => {
   const location = useLocation();
   const categories = {
-    wedding: ['/images/Fair1.jpg', '/images/Fair1.jpg', '/images/Fair1.jpg', '/wedding4.jpg', '/wedding5.jpg', '/wedding6.jpg', '/wedding7.jpg', '/wedding8.jpg'],
+    wedding: ['/images/Fair1.jpg', '/wedding4.jpg', '/wedding5.jpg', '/wedding6.jpg', '/wedding7.jpg', '/wedding8.jpg'],
     kathina: ['/images/Fair1.jpg', '/images/Fair1.jpg', '/kathina3.jpg'],
     birthday: ['/images/Fair1.jpg', '/birthday2.jpg', '/birthday3.jpg'],
     christmas: ['/christmas1.jpg', '/christmas2.jpg', '/christmas3.jpg']

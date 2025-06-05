@@ -63,8 +63,7 @@ const LightUpReindeerOrSnowman = ({ darkMode }) => {
         Light-up Reindeer or Snowman
       </Typography>
       <Typography variant="body1" paragraph sx={{ mt: 5, mb: 5, textAlign: 'center' }}>
-        Add festive joy with our light-up characters that charm guests of all ages. Ideal for lawn displays, Christmas parties, or themed corporate events. Built to endure outdoor settings and shine brightly through the night.
-      </Typography>
+     Bring joy to your  Christmascelebrations with illuminated reindeer and snowman decorations. These eye-catching features are perfect for Christmas parties, outdoor displays, or themed events.Built for both day and night impact, they add  charm and attract all ages with their glowing presence. </Typography>
 
       {/* Image Gallery */}
       <Box sx={{ mt: 4 }}>

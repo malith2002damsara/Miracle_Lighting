@@ -63,8 +63,7 @@ const FestoonLights = ({ darkMode }) => {
         Festoon Lights
       </Typography>
       <Typography variant="body1" paragraph sx={{ mt: 5, mb: 5, textAlign: 'center' }}>
-        Perfect for creating a relaxed, vintage vibe, festoon lights offer warm globe-style bulbs that hang beautifully across open areas. Ideal for garden parties, evening receptions, or rooftop gatherings.
-      </Typography>
+     Festoon lights offer a timeless, romantic look perfect for weddings, garden parties, and open-air events. Strung overhead or along structures, they create a canopy of soft bulbs that give off a cozy, inviting vibe. Durable and stylish, they bring a warm atmosphere to any celebration. </Typography>
 
       {/* Image Gallery */}
       <Box sx={{ mt: 4 }}>

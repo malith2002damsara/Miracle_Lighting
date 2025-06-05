@@ -101,8 +101,7 @@ const Wedding = ({ darkMode }) => {
           padding: '0 20px',
         }}
       >
-        From the moment guests arrive to the final dance, we create a breathtaking ambiance that reflects your love story. Our lighting design includes romantic fairy lights, glowing chandeliers, pathway lighting, and elegant backdrop setups that turn your venue into a dream scene. We also offer customizable themes, from rustic to royal.
-      </Typography>
+     Make your special day truly magical with our customized wedding lighting solutions. We offer soft ambient glows, romantic backdrops, and decorative illumination that enhance every corner of your venue. Whether it’s a grand reception or an intimate ceremony, our lighting adds charm and warmth that make your wedding unforgettable. </Typography>
 
       {/* Image Gallery */}
       <Box sx={{ mt: 4 }}>

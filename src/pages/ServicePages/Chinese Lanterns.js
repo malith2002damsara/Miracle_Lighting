@@ -64,8 +64,8 @@ const ChineseLanterns = ({ darkMode }) => {
         Chinese Lanterns
       </Typography>
       <Typography variant="body1" paragraph sx={{ mt: 5, mb: 5, textAlign: 'center' }}>
-        Infuse your event with cultural charm and graceful lighting. Ideal for nighttime celebrations, Chinese lanterns offer a soft, ambient glow and can be suspended above dining areas, walkways, or open fields. Available in various colors and sizes to match your theme.
-      </Typography>
+     Bring a touch of tradition and elegance to your celebration with Chinese lanterns. Available in various colors these lanterns float beautifully or hang gracefully, creating a warm and cultural ambiance. They're ideal for festivals, weddings, or themed parties seeking something unique and symbolic.
+ </Typography>
 
       {/* Image Gallery */}
       <Box sx={{ mt: 4 }}>

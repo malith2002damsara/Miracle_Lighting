@@ -97,8 +97,7 @@ const BirthdayParties = ({ darkMode }) => {
           padding: '0 20px',
         }}
       >
-        Make birthdays sparkle with customized lighting. From kids' cartoon-themed light setups to glamorous adult milestone celebrations, we design the perfect atmosphere. Use light-up letters, hanging fairy lights, balloon-lit arches, and dynamic indoor lighting for an unforgettable party space.
-      </Typography>
+       Turn your birthday party into a dazzling celebration with our colorful and exciting lighting setups. Whether it's for kids, teens, or adults, we provide customized lighting themes that match your style and energy. From vibrant LEDs to glowing centerpieces, our lights bring joy and liveliness to your special day. </Typography>
 
       <Box sx={{ mt: 4 }}>
         {imageRows.map((row, rowIndex) => (

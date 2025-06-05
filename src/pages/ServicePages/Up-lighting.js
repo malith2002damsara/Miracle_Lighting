@@ -63,8 +63,8 @@ const UpLighting = ({ darkMode }) => {
         Up-lighting
       </Typography>
       <Typography variant="body1" paragraph sx={{ mt: 5, mb: 5, textAlign: 'center' }}>
-        Turn plain walls and structures into colorful highlights. Up-lighting adds depth and dimension to the venue, making it feel more dynamic and luxurious. Choose static or slowly shifting hues to match your theme.
-      </Typography>
+   Up lighting is perfect for accentuating walls, pillars features. We use lights fixtures that project light upwards, adding depth and color to your event. Customize the color to suit your theme and enjoy a lit space that feels immersive, elegant, and visually striking.
+</Typography>
 
       {/* Image Gallery */}
       <Box sx={{ mt: 4 }}>

@@ -64,8 +64,7 @@ const Chandeliers = ({ darkMode }) => {
         Chandeliers
       </Typography>
       <Typography variant="body1" paragraph sx={{ mt: 5, mb: 5, textAlign: 'center' }}>
-        Add timeless elegance with our range of chandeliers—crystal, vintage, or modern. They not only light up the space but also act as decorative centerpieces. Perfect for formal receptions, weddings, or upscale dinners held indoors or under a tent.
-      </Typography>
+     Whether you’re going for a vintage, royal, or modern theme, our chandeliers add luxury and sparkle to any venue. Suspended above your dance floor, stage, or dining area, these lights set a classy tone for unforgettable events. </Typography>
 
       {/* Image Gallery */}
       <Box sx={{ mt: 4 }}>

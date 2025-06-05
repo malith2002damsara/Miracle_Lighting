@@ -98,8 +98,7 @@ const ChristmasParties = ({ darkMode }) => {
           padding: '0 20px',
         }}
       >
-        Create a winter wonderland with our full-service Christmas lighting. Whether indoors or outdoors, we offer themed lighting including Christmas trees, fairy lights, illuminated figures, and synchronized music-light displays. Add festive cheer and turn any venue into a magical holiday escape.
-      </Typography>
+    Bring the festive cheer to life with our enchanting Christmas lighting services. We offer everything from classic string lights and snowflake projections to elegant indoor and outdoor arrangements. Perfect for homes, offices, or events, our lighting adds warmth, wonder, and that magical Christmas glow to your celebrations. </Typography>
 
       <Box sx={{ mt: 4 }}>
         {imageRows.map((row, rowIndex) => (

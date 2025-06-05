@@ -4,20 +4,20 @@ import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import ServiceCard from '../components/ServiceCard'; // Assuming ServiceCard is in the same directory
 
 const services = [
-  { title: 'Indoor Lighting', description: 'Custom interior event lighting', image: '/images/Indo1.jpg', link: '/indoor-lighting' },
-  { title: 'Outdoor Lighting', description: 'Stylish weatherproof outdoor lighting', image: '/images/Outd1.jpg', link: '/outdoor-lighting' },
-  { title: 'Backdrop Lighting', description: 'Dramatic background lighting enhancements', image: '/images/Back1.jpg', link: '/backdrop-lighting' },
-  { title: 'Chandeliers', description: 'Elegant hanging decorative lighting', image: '/images/Chan.jpg', link: '/Chandeliers' },
-  { title: 'Chinese Lanterns', description: 'Soft-glow cultural lantern lighting', image: '/images/Chin1.jpg', link: '/Chinese-Lanterns' },
-  { title: 'Christmas Tree Lights', description: 'Festive tree lighting displays', image: '/images/Chri1.jpg', link: '/Christmas-Tree-Lights' },
-  { title: 'Fairy Lights', description: 'Magical tiny twinkling lights', image: '/images/Fair1.jpg', link: '/Fairy-Lights' },
-  { title: 'Festoon Lights', description: 'Warm vintage-style hanging lights', image: '/images/Fest1.jpg', link: '/Festoon-Lights' },
-  { title: 'LightUp Letters', description: 'Illuminated decorative word displays', image: '/images/Lett1.jpg', link: '/Light-Up-Letters' },
-  { title: 'LightUp Reindeer Or Snowman', description: 'Festive glowing holiday figures', image: '/images/Deer1.jpg', link: '/Light-up-Reindeer-or-Snowman' },
-  { title: 'Pathway Lights', description: 'Decorative guided walkway lighting', image: '/images/Path1.jpg', link: '/Pathway-Lights' },
-  { title: 'Temple Decorative Lighting', description: 'Classic hanging string bulbs', image: '/images/Temp1.jpg', link: '/Temple-Decorative-Lighting' },
-  { title: 'Up Lighting', description: 'Colorful wall wash lighting', image: '/images/Up1.jpg', link: '/Up-lighting' },
-  { title: 'Canopy String Lights', description: 'Colorful wall wash lighting', image: '/images/Cano1.jpg', link: '/Canopy-String-Lights' },
+  { title: 'Indoor Lighting', description: 'Elegant Ambience for Indoor Events', image: '/images/Indo1.jpg', link: '/indoor-lighting' },
+  { title: 'Outdoor Lighting', description: 'Enchant Your Outdoor Celebrations', image: '/images/Outd1.jpg', link: '/outdoor-lighting' },
+  { title: 'Backdrop Lighting', description: 'Glow Up Your Backdrops', image: '/images/Back1.jpg', link: '/backdrop-lighting' },
+  { title: 'Chandeliers', description: 'Classic Luxury with Chandeliers', image: '/images/Chan1.jpg', link: '/Chandeliers' },
+  { title: 'Chinese Lanterns', description: 'Cultural Beauty in Every Glow', image: '/images/Chin1.jpg', link: '/Chinese-Lanterns' },
+  { title: 'Christmas Tree Lights', description: 'Sparkling Trees for Christmas', image: '/images/Tree1.jpg', link: '/Christmas-Tree-Lights' },
+  { title: 'Fairy Lights', description: 'Magical Touch with Fairy Lights', image: '/images/Fair1.jpg', link: '/Fairy-Lights' },
+  { title: 'Festoon Lights', description: 'Vintage Charm with Festoon Lights', image: '/images/Fest1.jpg', link: '/Festoon-Lights' },
+  { title: 'LightUp Letters', description: 'Say It with Bright Letters', image: '/images/Lett1.jpg', link: '/Light-Up-Letters' },
+  { title: 'LightUp Reindeer Or Snowman', description: 'Festive Figures that Glow Bright', image: '/images/Deer1.jpg', link: '/Light-up-Reindeer-or-Snowman' },
+  { title: 'Pathway Lights', description: 'Guide Guests with Style', image: '/images/Path1.jpg', link: '/Pathway-Lights' },
+  { title: 'Temple Decorative Lighting', description: 'Sacred Beauty with Lighting Art', image: '/images/Temp1.jpg', link: '/Temple-Decorative-Lighting' },
+  { title: 'Up Lighting', description: 'Elevate Spaces with Up Lighting', image: '/images/Up1.jpg', link: '/Up-lighting' },
+  { title: 'Canopy String Lights', description: 'Starry Nights Under a Canopy', image: '/images/Cano1.jpg', link: '/Canopy-String-Lights' },
 ];
 
 const Services = ({ darkMode }) => {

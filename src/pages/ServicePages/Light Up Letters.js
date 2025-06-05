@@ -63,8 +63,7 @@ const LightUpLetters = ({ darkMode }) => {
         Light Up Letters
       </Typography>
       <Typography variant="body1" paragraph sx={{ mt: 5, mb: 5, textAlign: 'center' }}>
-        Spell out your message with large illuminated letters—"LOVE", "HAPPY BIRTHDAY", initials, or event-specific slogans. They're fantastic for photos and give a unique character to any celebration.
-      </Typography>
+     Make a bold statement with our large light-up letters. Whether it’s “LOVE,” “M & R,” or a custom word, these illuminated pieces add personality and flair to your event. They're perfect for photo ops, entrances, or dance floors and create a modern. </Typography>
 
       {/* Image Gallery */}
       <Box sx={{ mt: 4 }}>

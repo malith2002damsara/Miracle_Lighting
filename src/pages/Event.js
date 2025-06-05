@@ -4,28 +4,28 @@ import ServiceCard from '../components/ServiceCard';
 
 const services = [
   {
-    title: 'Wedding Decor',
-    description: 'Romantic custom lighting designs',
+    title: 'Wedding Events',
+    description: 'Elegant Lights for Your Wedding',
     image: '/images/Fair6.jpg',
     link: '/wedding',
   },
   {
     title: 'Birthday Parties',
-    description: 'Personalized celebration lighting decor',
+    description: 'Sparkling Lights to Brighten Your Birthday Bash',
     image: '/birthday.jpg',
     link: '/birthday-parties',
   },
   {
     title: 'Christmas Parties',
-    description: 'Festive themed lighting displays',
+    description: 'Sparkle Bright This Christmas Season',
     image: '/christmas.jpg',
     link: '/christmas-parties',
   },
   {
-    title: 'Kathina Festival',
-    description: 'Spiritual respectful lighting solutions',
+    title: 'Religious Festival',
+    description: 'Sacred Glow for Holy Events',
     image: '/images/Temp2.jpg',
-    link: '/kathina-festival',
+    link: '/Religious-festival',
   },
 ];
 
