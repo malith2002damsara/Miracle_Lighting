@@ -294,7 +294,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
               </Menu>
             </motion.div>
 
-            {['Gallery', 'Contact', 'About Us', 'FAQ'].map((item) => (
+            {['Gallery', 'Contact', 'About Us', ].map((item) => (
               <motion.div key={item} variants={itemVariants}>
                 <Button
                   color="inherit"
@@ -397,7 +397,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
                 { text: 'Contact', to: './contact' },
                 { text: 'Gallery', to: './gallery' },
                 { text: 'About Us', to: './about' },
-                { text: 'FAQ', to: './faq' },
+                // { text: 'FAQ', to: './faq' },
               ].map(({ text, to }, index) => (
                 <ListItem 
                   key={text} 

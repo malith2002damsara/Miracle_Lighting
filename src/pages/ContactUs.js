@@ -78,7 +78,7 @@ const ContactUs = ({ darkMode }) => {
             fontSize: { xs: '1.25rem', sm: '1.5rem', md: '1.75rem' },
           }}
         >
-          Let's illuminate your special day with magical lighting solutions.
+          Let's illuminate your special day with best lighting solutions.
         </Typography>
 
         <Box

@@ -45,8 +45,7 @@ const AboutUs = ({ darkMode }) => {
 
   // Full texts
   const fullAboutUsText =
-    "Welcome to Miracle Lighting! We are a leading provider of innovative and stunning lighting solutions for various events and occasions. Since 2017, we have provided 7 years of expertise in creating unique and mesmerizing ambiance for weddings, birthday parties, Christmas parties, Kathina festivals, and more. Our experienced team customizes lighting to suit your specific needs, ensuring each event is unforgettable. Whether it's soft, romantic lighting for a wedding or vibrant, festive lighting for a party, we specialize in bringing your vision to life. Let us light up your world!";
-
+    "Welcome to Miracle Lighting! We are a leading provider of innovative and stunning lighting solutions for various events and occasions. Since 2017, we have provided 7 years of expertise in creating unique and mesmerizing ambiance for weddings, birthday parties, Christmas parties, Religious Festival, and more. Our experienced team customizes lighting to suit your specific needs, ensuring each event is unforgettable. Whether it's soft, romantic lighting for a wedding or vibrant, festive lighting for a party, we specialize in bringing your vision to life. Let us light up your world!";
   const fullMissionText =
     "Our mission is to provide high-quality, creative, and customized lighting solutions that transform your events into memorable experiences. We are committed to offering the best customer service and ensuring every event is illuminated to perfection. Our vision is to become the premier lighting provider for all types of events, from weddings to corporate functions, by continuing to innovate and exceed expectations. We aim to inspire through lighting and enhance the beauty of every occasion.";
 

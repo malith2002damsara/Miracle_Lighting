@@ -38,7 +38,7 @@ import Wedding from './pages/Wedding';
 import BirthdayParties from './pages/BirthdayParties';
 import ChristmasParties from './pages/ChristmasParties';
 import KathinaFestival from './pages/KathinaFestival';
-import FAQ from './pages/FAQ';
+// import FAQ from './pages/FAQ';
 
 
 // Install a library for the carousel/slider
@@ -77,7 +77,7 @@ const App = () => {
           <Route path="/event" element={<Event darkMode={darkMode} />} />
           <Route path="/contact" element={<ContactUs darkMode={darkMode} />} />
           <Route path="/about-us" element={<AboutUs darkMode={darkMode} />} />
-          <Route path="/FAQ" element={<FAQ darkMode={darkMode}/>} />
+          {/* <Route path="/FAQ" element={<FAQ darkMode={darkMode}/>} /> */}
           <Route path="/jobs" element={<Jobs darkMode={darkMode} />} />
         
 
