@@ -206,6 +206,31 @@ const Slider = () => {
           zIndex: 3,
         }}
       >
+        {/* Navigation Buttons */}
+        <Button
+          onClick={handlePrev}
+          sx={{
+            position: 'absolute',
+            left: 10,
+            zIndex: 3,
+            color: '#FFD700',
+            '&:hover': { color: '#fff' }
+          }}
+        >
+          ❮
+        </Button>
+        <Button
+          onClick={handleNext}
+          sx={{
+            position: 'absolute',
+            right: 10,
+            zIndex: 3,
+            color: '#FFD700',
+            '&:hover': { color: '#fff' }
+          }}
+        >
+          ❯
+        </Button>
         {slides.map((slide, index) => {
           const isSelected = currentIndex === index;
           return (

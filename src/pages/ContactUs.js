@@ -1,40 +1,17 @@
 
-import { Box, Typography, Button, IconButton } from '@mui/material';
+import { Box, Typography, Button } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 import CallIcon from '@mui/icons-material/Call';
 import { FaFacebookMessenger } from 'react-icons/fa';
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 //cgfchggvg
 const ContactUs = ({ darkMode }) => {
-  const [showChatOptions, setShowChatOptions] = useState(false);
-  const [showScroll, setShowScroll] = useState(false);
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
-
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
-
-  const toggleChatOptions = () => {
-    setShowChatOptions((prev) => !prev);
-  };
-
-  // Handle scroll event to display scroll-to-top button
-  React.useEffect(() => {
-    const handleScroll = () => {
-      setShowScroll(window.scrollY > 300);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (

@@ -33,6 +33,11 @@ const Services = ({ darkMode }) => {
   
   useEffect(() => {
     window.scrollTo(0, 0);
+    const checkScrollTop = () => {
+      setShowScroll(window.pageYOffset > 300);
+    };
+    window.addEventListener('scroll', checkScrollTop);
+    return () => window.removeEventListener('scroll', checkScrollTop);
   }, []);
 
   return (

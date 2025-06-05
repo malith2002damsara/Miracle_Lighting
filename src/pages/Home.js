@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Hero from '../components/Hero';
 import { Box} from '@mui/material';
 import HomeCard from '../components/HomeCard';
@@ -10,27 +10,7 @@ import Navbar from '../components/Navbar'; // Import your Navbar
 // import Footer from '../components/Footer';
 
 const Home = () => {
-  const [showScroll, setShowScroll] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
-  const [isChatOpen, setIsChatOpen] = useState(false);
-  const [isCallOpen, setIsCallOpen] = useState(false);
-  const [showChatOptions, setShowChatOptions] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setShowScroll(window.scrollY > 300); // Show button after scrolling 300px
-    };
-    window.addEventListener('scroll', handleScroll);
-
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  const toggleChatOptions = () => setShowChatOptions(!showChatOptions);
-  const toggleCallButton = () => setIsCallOpen(!isCallOpen);
 
   return (
     <>

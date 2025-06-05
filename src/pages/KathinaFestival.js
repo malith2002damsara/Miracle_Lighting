@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Box, Typography, Container, Button, CardMedia } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import Zoom from 'react-medium-image-zoom';
@@ -17,32 +17,16 @@ const images = [
 
 const KathinaFestival = ({ darkMode }) => {
   const navigate = useNavigate();
-  const [showAllImages, setShowAllImages] = useState(false);
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const handleSeeMore = () => {
-    setShowAllImages(true);
-  };
-
-  const handleSeeLess = () => {
-    setShowAllImages(false);
-  };
-
   const goToGallery = () => {
     navigate('/gallery', { state: { selectedCategory: 'kathina' } });
   };
 
-  const imagesToShow = showAllImages ? images : images.slice(0, 8);
+  const imagesToShow = images;
 
   const chunkImages = (arr, size) => {
     const chunks = [];

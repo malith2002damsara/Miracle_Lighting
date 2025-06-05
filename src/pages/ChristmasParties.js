@@ -17,32 +17,16 @@ const images = [
 
 const ChristmasParties = ({ darkMode }) => {
   const navigate = useNavigate();
-  const [showAllImages, setShowAllImages] = useState(false);
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const handleSeeMore = () => {
-    setShowAllImages(true);
-  };
-
-  const handleSeeLess = () => {
-    setShowAllImages(false);
-  };
-
   const goToGallery = () => {
     navigate('/gallery', { state: { selectedCategory: 'christmas' } });
   };
 
-  const imagesToShow = showAllImages ? images : images.slice(0, 8);
+  const imagesToShow = images;
 
   const chunkImages = (arr, size) => {
     const chunks = [];

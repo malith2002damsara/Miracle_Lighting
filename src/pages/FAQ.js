@@ -49,10 +49,6 @@ const FAQ = ({ darkMode }) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   const toggleQuestion = (index) => {
     if (expandedIndex === index) {
       setExpandedIndex(null);

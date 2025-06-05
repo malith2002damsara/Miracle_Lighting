@@ -19,13 +19,6 @@ const BirthdayParties = ({ darkMode }) => {
   const navigate = useNavigate();
   const [showAllImages, setShowAllImages] = useState(false);
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

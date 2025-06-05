@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Typography, IconButton, Container, Grid } from '@mui/material';
+import { Box, Typography, Container, Grid } from '@mui/material';
 import { keyframes } from '@mui/system';
 
 // Keyframes for wave-like animation
@@ -38,8 +38,6 @@ const fadeInFromRight = keyframes`
 `;
 
 const AboutUs = ({ darkMode }) => {
-  const [showScroll, setShowScroll] = useState(false);
-  const [showChatOptions, setShowChatOptions] = useState(false);
   const [aboutUsWords, setAboutUsWords] = useState([]);
   const [missionWords, setMissionWords] = useState([]);
 
@@ -50,26 +48,10 @@ const AboutUs = ({ darkMode }) => {
     "Our mission is to provide high-quality, creative, and customized lighting solutions that transform your events into memorable experiences. We are committed to offering the best customer service and ensuring every event is illuminated to perfection. Our vision is to become the premier lighting provider for all types of events, from weddings to corporate functions, by continuing to innovate and exceed expectations. We aim to inspire through lighting and enhance the beauty of every occasion.";
 
   useEffect(() => {
-    const handleScroll = () => {
-      setShowScroll(window.scrollY > 300);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
   // Split the texts into words for About Us and Mission sections
-  useEffect(() => {
     setAboutUsWords(fullAboutUsText.split(' '));
     setMissionWords(fullMissionText.split(' '));
   }, []);
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  const toggleChatOptions = () => {
-    setShowChatOptions((prev) => !prev);
-  };
 
   // Function to render words with wave-like animation
   const renderWordsWithWave = (words) => {
