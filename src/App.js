@@ -100,7 +100,7 @@ const App = () => {
           <Route path="/wedding" element={<Wedding darkMode={darkMode}/>} />
           <Route path="/birthday-parties" element={<BirthdayParties darkMode={darkMode} />} />
           <Route path="/christmas-parties" element={<ChristmasParties darkMode={darkMode} />} />
-          <Route path="/Religious-festival" element={<KathinaFestival darkMode={darkMode}/>} />
+          <Route path="/religious-festivals" element={<KathinaFestival darkMode={darkMode}/>} />
 
         </Routes>
         <FloatingButtons darkMode={darkMode} />

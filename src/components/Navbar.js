@@ -280,7 +280,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
                   },
                 }}
               >
-                {['Wedding', 'Birthday Parties', 'Christmas Parties', 'Kathina Festival'].map((event) => (
+                {['Wedding', 'Birthday Parties', 'Christmas Parties', 'Religious Festivals'].map((event) => (
                   <MenuItem 
                     key={event} 
                     component={motion(Link)} 

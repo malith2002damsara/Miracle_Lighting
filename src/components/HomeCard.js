@@ -25,7 +25,7 @@ const services = [
     title: 'Religious Festival',
     description: 'Sacred Glow for Holy Events',
     image: '/images/Temp2.jpg',
-    link: '/Religious-festival',
+    link: '/religious-festivals',
   },
 ];
 
