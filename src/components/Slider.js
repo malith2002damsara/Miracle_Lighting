@@ -217,7 +217,7 @@ const Slider = () => {
             '&:hover': { color: '#fff' }
           }}
         >
-          ❮
+          {/* ❮ */}
         </Button>
         <Button
           onClick={handleNext}
@@ -229,7 +229,7 @@ const Slider = () => {
             '&:hover': { color: '#fff' }
           }}
         >
-          ❯
+          {/* ❯ */}
         </Button>
         {slides.map((slide, index) => {
           const isSelected = currentIndex === index;

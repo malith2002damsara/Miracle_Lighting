@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
 import { Box, Typography } from '@mui/material';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import './imageanimaton.css';
 
 const images = [
@@ -24,24 +24,21 @@ const content = [
 const IMAGE_WIDTH = 500;
 const IMAGE_HEIGHT = 320;
 
-const settings = {
-  dots: true,
-  infinite: true,
-  speed: 2000,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 5000,
-  fade: true,
-};
-
 const ImageAnimation = ({ darkMode }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [direction, setDirection] = useState(0); // 0 for forward, 1 for backward
 
-  const handleAfterChange = (index) => {
-    setCurrentIndex(index);
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    fade: true,
+    beforeChange: (current, next) => setCurrentIndex(next),
   };
-
   // Animation variants
   const imageVariants = {
     hidden: { opacity: 0, scale: 0.95 },
@@ -56,16 +53,26 @@ const ImageAnimation = ({ darkMode }) => {
   };
 
   const textVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: {
+    enter: (direction) => ({
+      opacity: 0,
+      y: direction === 0 ? 20 : -20
+    }),
+    center: {
       opacity: 1,
       y: 0,
       transition: {
         duration: 0.6,
-        ease: "easeOut",
-        delay: 0.3
+        ease: "easeOut"
       }
-    }
+    },
+    exit: (direction) => ({
+      opacity: 0,
+      y: direction === 0 ? -20 : 20,
+      transition: {
+        duration: 0.6,
+        ease: "easeIn"
+      }
+    })
   };
 
   return (
@@ -78,18 +85,18 @@ const ImageAnimation = ({ darkMode }) => {
         py: { xs: 2, sm: 4 }, 
         px: { xs: 2, sm: 5 },
         backgroundColor: darkMode ? '#121212' : '#f5f5f5',
-        gap: { xs: '5px', md: '2px' } // Added gap for mobile and desktop
+        gap: { xs: '5px', md: '2px' }
       }}
     >
       {/* Left Side: Slider */}
       <Box sx={{ 
         width: { xs: '100%', sm: '70%', md: '50%' },
         maxWidth: IMAGE_WIDTH,
-        padding: { xs: '5px', md: 2 } // Adjusted padding for mobile
+        padding: { xs: '5px', md: 2 }
       }}>
-        <Slider {...settings} afterChange={handleAfterChange}>
+        <Slider {...settings}>
           {images.map((image, index) => (
-            <div key={index} className="slick-slide">
+            <div key={index}>
               <motion.div
                 initial="hidden"
                 animate="visible"
@@ -127,28 +134,36 @@ const ImageAnimation = ({ darkMode }) => {
           width: { xs: '100%', sm: '70%', md: '50%' },
           maxWidth: IMAGE_WIDTH,
           textAlign: 'center',
-          padding: { xs: '5px', md: 2 }, // Consistent padding with image box
+          padding: { xs: '5px', md: 2 },
+          minHeight: IMAGE_HEIGHT,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
         }}
       >
-        <motion.div
-          key={currentIndex}
-          initial="hidden"
-          animate="visible"
-          variants={textVariants}
-        >
-          <Typography
-            variant="h5"
-            sx={{
-              color: darkMode ? '#FFD700' : '#000000',
-              mb: 2,
-              fontWeight: 700,
-              fontSize: { xs: '1.3rem', sm: '1.7rem' },
-              fontFamily: `'Playfair Display', serif`,
-            }}
+        <AnimatePresence custom={direction} mode='wait'>
+          <motion.div
+            key={currentIndex}
+            custom={direction}
+            variants={textVariants}
+            initial="enter"
+            animate="center"
+            exit="exit"
           >
-            {content[currentIndex]}
-          </Typography>
-        </motion.div>
+            <Typography
+              variant="h5"
+              sx={{
+                color: darkMode ? '#FFD700' : '#000000',
+                mb: 2,
+                fontWeight: 700,
+                fontSize: { xs: '1.3rem', sm: '1.7rem' },
+                fontFamily: `'Jolly Lodger', 'Comic Sans MS', cursive`,
+              }}
+            >
+              {content[currentIndex]}
+            </Typography>
+          </motion.div>
+        </AnimatePresence>
       </Box>
     </Box>
   );

@@ -378,7 +378,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
               width: 200,
               bgcolor: 'rgba(0, 0, 0, 0.5)',
               color: '#FFFF00',
-              height: '66%',
+              height: '100%',
             }}
             role="presentation"
             onClick={toggleDrawer}
@@ -396,7 +396,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
                 { text: 'Event', to: './event' },
                 { text: 'Contact', to: './contact' },
                 { text: 'Gallery', to: './gallery' },
-                { text: 'About Us', to: './about' },
+                { text: 'About Us', to: './about-us' },
                 // { text: 'FAQ', to: './faq' },
               ].map(({ text, to }, index) => (
                 <ListItem 

@@ -36,13 +36,14 @@ const Footer = ({ darkMode }) => {
           <Grid container spacing={8} justifyContent="center">
             <Grid item xs={6}>
               <Link href="/" color="inherit" sx={{ display: 'block', mb: 1 }}>Home</Link>
-              <Link href="/about-us" color="inherit" sx={{ display: 'block', mb: 1 }}>About Us</Link>
-              <Link href="/services" color="inherit" sx={{ display: 'block', mb: 1 }}>Services</Link>
+              <Link href="/event" color="inherit" sx={{ display: 'block', mb: 1 }}>Events</Link>
+              
             </Grid>
             <Grid item xs={6}>
               <Link href="/gallery" color="inherit" sx={{ display: 'block', mb: 1 }}>Gallery</Link>
-              <Link href="/faq" color="inherit" sx={{ display: 'block', mb: 1 }}>FAQ</Link>
-              <Link href="/contact" color="inherit" sx={{ display: 'block' }}>Contact Us</Link>
+              <Link href="/services" color="inherit" sx={{ display: 'block', mb: 1 }}>Services</Link>
+              {/* <Link href="/faq" color="inherit" sx={{ display: 'block', mb: 1 }}>FAQ</Link> */}
+              {/* <Link href="/contact" color="inherit" sx={{ display: 'block' }}>Contact Us</Link> */}
             </Grid>
           </Grid>
         </Grid>
@@ -58,6 +59,7 @@ const Footer = ({ darkMode }) => {
           </Typography>
           <Link href="/jobs" color="inherit" sx={{ display: 'block', mb: 1 }}>Jobs</Link>
           <Link href="/about-us" color="inherit" sx={{ display: 'block', mb: 1 }}>About Us</Link>
+          <Link href="/contact" color="inherit" sx={{ display: 'block' }}>Contact Us</Link>
         </Grid>
 
         {/* Column 3: Quick Contact */}
