@@ -38,7 +38,7 @@ const HomeVideo = ({ darkMode }) => {
               boxShadow: darkMode ? '0 0 20px rgba(255, 215, 0, 0.5)' : '0 0 20px rgba(0,0,0,0.2)',
             }}
           >
-            <source src="/videos/1.mp4" type="video/mp4" />
+            <source src="/videos/11.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </Box>
@@ -161,7 +161,7 @@ const HomeVideo = ({ darkMode }) => {
               boxShadow: darkMode ? '0 0 20px rgba(255, 215, 0, 0.5)' : '0 0 20px rgba(0,0,0,0.2)',
             }}
           >
-            <source src="/videos/2.mp4" type="video/mp4" />
+            <source src="/videos/22.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </Box>
