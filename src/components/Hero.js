@@ -159,7 +159,7 @@ const Hero = ({ darkMode }) => {
               bgcolor: '#FFD700',
               color: '#4A4A4A',
               fontSize: { xs: '0.8rem', sm: '1rem' },
-              mt: 6,
+              mt: 12,
               padding: { xs: '8px 16px', sm: '10px 20px' },
               fontWeight: 'bold',
               '&:hover': {
