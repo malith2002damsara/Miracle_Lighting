@@ -157,7 +157,8 @@ const ImageAnimation = ({ darkMode }) => {
                 mb: 2,
                 fontWeight: 700,
                 fontSize: { xs: '1.3rem', sm: '1.7rem' },
-                fontFamily: `'Jolly Lodger', 'Comic Sans MS', cursive`,
+               fontFamily: `'Poppins', sans-serif` // Modern, clean, and user-friendly
+
               }}
             >
               {content[currentIndex]}
