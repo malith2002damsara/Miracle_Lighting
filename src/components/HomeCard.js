@@ -9,18 +9,18 @@ const services = [
     image: '/images/Fair6.jpg',
     link: '/wedding',
   },
-  {
-    title: 'Birthday Parties',
-    description: 'Sparkling Lights to Brighten Your Birthday Bash',
-    image: '/birthday.jpg',
-    link: '/birthday-parties',
-  },
-  {
-    title: 'Christmas Parties',
-    description: 'Sparkle Bright This Christmas Season',
-    image: '/christmas.jpg',
-    link: '/christmas-parties',
-  },
+  // {
+  //   title: 'Birthday Parties',
+  //   description: 'Sparkling Lights to Brighten Your Birthday Bash',
+  //   image: '/birthday.jpg',
+  //   link: '/birthday-parties',
+  // },
+  // {
+  //   title: 'Christmas Parties',
+  //   description: 'Sparkle Bright This Christmas Season',
+  //   image: '/christmas.jpg',
+  //   link: '/christmas-parties',
+  // },
   {
     title: 'Religious Festival',
     description: 'Sacred Glow for Holy Events',
@@ -33,23 +33,23 @@ const services = [
 const HomeCard = ({ darkMode }) => {
   return (
     <Box
-    sx={{
-      py: { xs: 6, sm: 10, md: 15 }, // Adjusts padding for different screen sizes
-      px: { xs: 6, sm: 10,md: 15 }, // Reduces side padding on smaller screens
-      textAlign: 'center',
-      backgroundColor: darkMode ? '#000000' : '#FFFFFF',
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-    }}
+      sx={{
+        py: { xs: 6, sm: 10, md: 15 }, // Adjusts padding for different screen sizes
+        px: { xs: 6, sm: 10, md: 15 }, // Reduces side padding on smaller screens
+        textAlign: 'center',
+        backgroundColor: darkMode ? '#000000' : '#FFFFFF',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
     >
-      <Typography 
-                   variant="h2" 
-                   sx={{ color: darkMode ? '#FFD700' : '#4A4A4A', mb: 7}}
-                 >
-                  Main Events
-                 </Typography>
+      <Typography
+        variant="h2"
+        sx={{ color: darkMode ? '#FFD700' : '#4A4A4A', mb: 7 }}
+      >
+        Main Events
+      </Typography>
       <Grid container spacing={6} justifyContent="center">
         {services.map((service, index) => (
           <Grid item key={index} xs={12} sm={6} md={3}>

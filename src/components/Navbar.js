@@ -206,11 +206,11 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
                   'Canopy String Lights',
                   'Temple Decorative Lighting',
                   'Pathway Lights',
-                  'Light-up Reindeer or Snowman',
+                  // 'Light-up Reindeer or Snowman',
                   'Light-Up Letters',
                   'Festoon Lights',
                   'Fairy Lights',
-                  'Christmas Tree Lights',
+                  // 'Christmas Tree Lights',
                   'Chinese Lanterns',
                   'Chandeliers'
                 ].map((service) => (
@@ -280,7 +280,8 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
                   },
                 }}
               >
-                {['Wedding', 'Birthday Parties', 'Christmas Parties', 'Religious Festivals'].map((event) => (
+                {['Wedding','Religious Festivals'].map((event) => ( 
+                  // 'Birthday Parties', 'Christmas Parties', 
                   <MenuItem 
                     key={event} 
                     component={motion(Link)} 

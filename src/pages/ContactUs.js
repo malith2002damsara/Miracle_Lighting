@@ -32,16 +32,19 @@ const ContactUs = ({ darkMode }) => {
     >
       <Box sx={{ maxWidth: '80%', width: '100%', zIndex: 1 }}>
         <Typography
-          variant="h4"
-          gutterBottom
-          sx={{
-            color: darkMode ? '#FFD700' : '#FFD700',
-           
-            textAlign: 'center',
-            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)',
-            fontSize: { xs: '2.5rem', sm: '3rem', md: '3.5rem' },
-          }}
-        >
+                    variant="h3"
+                    gutterBottom
+                    sx={{
+                      mt: 5,
+                      mb: 5,
+                      color: darkMode ? '#FFD700' : '#000000',
+                      textAlign: 'center',
+                      fontWeight: 'bold',
+                      textShadow: darkMode ? '0 2px 4px rgba(255, 215, 0, 0.5)' : '0 2px 4px rgba(0, 0, 0, 0.2)',
+                      position: 'relative',
+                    
+                    }}
+                  >
           Get in Touch for Your Dream Lighting!
         </Typography>
         <Typography

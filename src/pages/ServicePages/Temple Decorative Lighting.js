@@ -59,13 +59,20 @@ const TempleDecorativeLighting = ({ darkMode }) => {
         borderRadius: '8px',
       }}
     >
-      <Typography variant="h3" gutterBottom sx={{ 
-        mt: 5, 
-        mb: 5, 
-        color: darkMode ? '#FFD700' : '#000000', 
-        textAlign: 'center',
-        
-      }}>
+      <Typography
+                             variant="h3"
+                             gutterBottom
+                             sx={{
+                               mt: 4,
+                               mb: 5,
+                               color: darkMode ? '#FFD700' : '#000000',
+                               textAlign: 'center',
+                               fontWeight: 'bold',
+                               textShadow: darkMode ? '0 2px 4px rgba(255, 215, 0, 0.5)' : '0 2px 4px rgba(0, 0, 0, 0.2)',
+                               position: 'relative',
+                             
+                             }}
+                           >
         Temple Decorative Lighting
       </Typography>
       <Typography variant="body1" paragraph sx={{ 

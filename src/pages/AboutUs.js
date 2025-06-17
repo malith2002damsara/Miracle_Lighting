@@ -106,11 +106,20 @@ const AboutUs = ({ darkMode }) => {
   {/* About Us Section */}
   <Grid item xs={12} sx={{ textAlign: 'center' }}> {/* Center the entire section */}
     <Box sx={{ animation: `${fadeInFromLeft} 1s ease-out` }}>
-      <Typography 
-        variant="h3" 
-        
-        sx={{ color: darkMode ? '#FFD700' : '#FFD700', mb: 3, mt: 10 ,fontSize: { xs: '2.7rem', sm: '2.2rem', md: '3rem' },}}
-      >
+     <Typography
+                 variant="h3"
+                 gutterBottom
+                 sx={{
+                   mt: 9,
+                   mb: 5,
+                   color: darkMode ? '#FFD700' : '#000000',
+                   textAlign: 'center',
+                   fontWeight: 'bold',
+                   textShadow: darkMode ? '0 2px 4px rgba(255, 215, 0, 0.5)' : '0 2px 4px rgba(0, 0, 0, 0.2)',
+                   position: 'relative',
+                 
+                 }}
+               >
         About Us
       </Typography>
       <Box sx={{ color: darkMode ? '#FFD700' : '#FFD700', lineHeight: 1.6, display: 'inline-block', textAlign: 'center' }}>
@@ -122,10 +131,20 @@ const AboutUs = ({ darkMode }) => {
   {/* Mission and Vision Section */}
   <Grid item xs={12} sx={{ textAlign: 'center' }}> {/* Center the entire section */}
     <Box sx={{ animation: `${fadeInFromRight} 1s ease-out` }}>
-      <Typography 
-        variant="h3" 
-        sx={{ color: darkMode ? '#FFD700' : '#FFD700', mb: 3, mt: 10,fontSize: { xs: '2.7rem', sm: '2.2rem', md: '3rem' }, }}
-      >
+      <Typography
+                  variant="h3"
+                  gutterBottom
+                  sx={{
+                    mt: 5,
+                    mb: 5,
+                    color: darkMode ? '#FFD700' : '#000000',
+                    textAlign: 'center',
+                    fontWeight: 'bold',
+                    textShadow: darkMode ? '0 2px 4px rgba(255, 215, 0, 0.5)' : '0 2px 4px rgba(0, 0, 0, 0.2)',
+                    position: 'relative',
+                  
+                  }}
+                >
         Our Mission & Vision
       </Typography>
       <Box sx={{ color: darkMode ? '#FFD700' : '#FFD700', lineHeight: 1.6, display: 'inline-block', textAlign: 'center' }}>

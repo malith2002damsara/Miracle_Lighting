@@ -9,18 +9,18 @@ const services = [
     image: '/images/Fair6.jpg',
     link: '/wedding',
   },
-  {
-    title: 'Birthday Parties',
-    description: 'Sparkling Lights to Brighten Your Birthday Bash',
-    image: '/birthday.jpg',
-    link: '/birthday-parties',
-  },
-  {
-    title: 'Christmas Parties',
-    description: 'Sparkle Bright This Christmas Season',
-    image: '/christmas.jpg',
-    link: '/christmas-parties',
-  },
+  // {
+  //   title: 'Birthday Parties',
+  //   description: 'Sparkling Lights to Brighten Your Birthday Bash',
+  //   image: '/birthday.jpg',
+  //   link: '/birthday-parties',
+  // },
+  // {
+  //   title: 'Christmas Parties',
+  //   description: 'Sparkle Bright This Christmas Season',
+  //   image: '/christmas.jpg',
+  //   link: '/christmas-parties',
+  // },
   {
     title: 'Religious Festival',
     description: 'Sacred Glow for Holy Events',
@@ -49,15 +49,19 @@ const Event = ({ darkMode }) => {
       }}
     >
       <Typography
-        variant="h3"
-        sx={{
-          fontSize: { xs: '2.5rem', sm: '2.2rem', md: '3rem' },
-          color: darkMode ? '#FFD700' : '#4A4A4A',
-          mt: { xs: 5, sm: -3, md: -4 },
-          textAlign: 'center',
-          mb: { xs: 6, sm: 6, md: 7 },
-        }}
-      >
+                  variant="h3"
+                  gutterBottom
+                  sx={{
+                    mt: 5,
+                    mb: 5,
+                    color: darkMode ? '#FFD700' : '#000000',
+                    textAlign: 'center',
+                    fontWeight: 'bold',
+                    textShadow: darkMode ? '0 2px 4px rgba(255, 215, 0, 0.5)' : '0 2px 4px rgba(0, 0, 0, 0.2)',
+                    position: 'relative',
+                  
+                  }}
+                >
         Our Main Events
       </Typography>
       

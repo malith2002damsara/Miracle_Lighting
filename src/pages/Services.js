@@ -9,11 +9,11 @@ const services = [
   { title: 'Backdrop Lighting', description: 'Glow Up Your Backdrops', image: '/images/Back1.jpg', link: '/backdrop-lighting' },
   { title: 'Chandeliers', description: 'Classic Luxury with Chandeliers', image: '/images/Chan1.jpg', link: '/Chandeliers' },
   { title: 'Chinese Lanterns', description: 'Cultural Beauty in Every Glow', image: '/images/Chin1.jpg', link: '/Chinese-Lanterns' },
-  { title: 'Christmas Tree Lights', description: 'Sparkling Trees for Christmas', image: '/images/Tree1.jpg', link: '/Christmas-Tree-Lights' },
+  // { title: 'Christmas Tree Lights', description: 'Sparkling Trees for Christmas', image: '/images/Tree1.jpg', link: '/Christmas-Tree-Lights' },
   { title: 'Fairy Lights', description: 'Magical Touch with Fairy Lights', image: '/images/Fair1.jpg', link: '/Fairy-Lights' },
   { title: 'Festoon Lights', description: 'Vintage Charm with Festoon Lights', image: '/images/Fest1.jpg', link: '/Festoon-Lights' },
   { title: 'LightUp Letters', description: 'Say It with Bright Letters', image: '/images/Lett1.jpg', link: '/Light-Up-Letters' },
-  { title: 'LightUp Reindeer Or Snowman', description: 'Festive Figures that Glow Bright', image: '/images/Deer1.jpg', link: '/Light-up-Reindeer-or-Snowman' },
+  // { title: 'LightUp Reindeer Or Snowman', description: 'Festive Figures that Glow Bright', image: '/images/Deer1.jpg', link: '/Light-up-Reindeer-or-Snowman' },
   { title: 'Pathway Lights', description: 'Guide Guests with Style', image: '/images/Path1.jpg', link: '/Pathway-Lights' },
   { title: 'Temple Decorative Lighting', description: 'Sacred Beauty with Lighting Art', image: '/images/Temp1.jpg', link: '/Temple-Decorative-Lighting' },
   { title: 'Up Lighting', description: 'Elevate Spaces with Up Lighting', image: '/images/Up1.jpg', link: '/Up-lighting' },
@@ -30,7 +30,7 @@ const Services = ({ darkMode }) => {
       behavior: 'smooth',
     });
   };
-  
+
   useEffect(() => {
     window.scrollTo(0, 0);
     const checkScrollTop = () => {
@@ -41,27 +41,30 @@ const Services = ({ darkMode }) => {
   }, []);
 
   return (
-    <Box sx={{ 
-      py: 10, 
-      px: 2, 
+    <Box sx={{
+      py: 10,
+      px: 2,
       textAlign: 'center',
       backgroundColor: darkMode ? '#121212' : '#ffffff',
       minHeight: '100vh'
     }}>
-      <Typography 
-        variant="h3" 
-        sx={{ 
-          color: darkMode ? '#FFD700' : '#000000', 
-          mb: 8, 
-          mt: 2,
-          fontWeight: 'normal ',
-          textTransform: 'uppercase',
-          letterSpacing: '1px'
-        }}
-      >
+      <Typography
+                       variant="h3"
+                       gutterBottom
+                       sx={{
+                         mt: 4,
+                         mb: 5,
+                         color: darkMode ? '#FFD700' : '#000000',
+                         textAlign: 'center',
+                         fontWeight: 'bold',
+                         textShadow: darkMode ? '0 2px 4px rgba(255, 215, 0, 0.5)' : '0 2px 4px rgba(0, 0, 0, 0.2)',
+                         position: 'relative',
+                       
+                       }}
+                     >
         Our Services
       </Typography>
-      
+
       <Grid container spacing={4} justifyContent="center">
         {services.map((service) => (
           <Grid item xs={12} sm={6} md={4} lg={3} key={service.title}>

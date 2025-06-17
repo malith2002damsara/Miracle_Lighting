@@ -10,8 +10,8 @@ const Gallery = ({ darkMode }) => {
   const categories = {
     wedding: ['/images/Fair1.jpg', '/wedding4.jpg', '/wedding5.jpg', '/wedding6.jpg', '/wedding7.jpg', '/wedding8.jpg'],
     kathina: ['/images/Fair1.jpg', '/images/Fair1.jpg', '/kathina3.jpg'],
-    birthday: ['/images/Fair1.jpg', '/birthday2.jpg', '/birthday3.jpg'],
-    christmas: ['/christmas1.jpg', '/christmas2.jpg', '/christmas3.jpg']
+    // birthday: ['/images/Fair1.jpg', '/birthday2.jpg', '/birthday3.jpg'],
+    // christmas: ['/christmas1.jpg', '/christmas2.jpg', '/christmas3.jpg']
   };
 
   const [selectedCategory, setSelectedCategory] = useState(
@@ -35,18 +35,22 @@ const Gallery = ({ darkMode }) => {
 
   return (
     <Box sx={{ py: 10, px: { xs: 2, sm: 4 }, position: 'relative' }}>
-      <Typography 
-        variant="h3" 
-        sx={{ 
-          color: darkMode ? '#FFD700' : '#4A4A4A', 
-          mt: 1, 
-          textAlign:'center', 
-          mb: 7,
-          fontSize: { xs: '2rem', sm: '2.5rem', md: '3rem' }
-        }}
-      >
-        Gallery
-      </Typography>
+      <Typography
+             variant="h3"
+             gutterBottom
+             sx={{
+               mt: 5,
+               mb: 5,
+               color: darkMode ? '#FFD700' : '#000000',
+               textAlign: 'center',
+               fontWeight: 'bold',
+               textShadow: darkMode ? '0 2px 4px rgba(255, 215, 0, 0.5)' : '0 2px 4px rgba(0, 0, 0, 0.2)',
+               position: 'relative',
+             
+             }}
+           >
+             Gallery
+           </Typography>
 
       {!selectedCategory ? (
         <Grid container spacing={4} justifyContent="center">
