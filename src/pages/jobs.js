@@ -46,22 +46,20 @@ const Jobs = ({ darkMode }) => {
         minHeight: '100vh',
       }}
     >
-      <Typography 
-        variant="h3" 
-        gutterBottom 
-        sx={{ 
-          textAlign: 'center', 
-          fontWeight: 'bold',
-          background: darkMode 
-            ? 'linear-gradient(45deg, #fbbf24, #FFD700)' 
-            : 'linear-gradient(45deg, #2563eb, #1d4ed8)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-          mb: 3,
-          mt: 3,
-          pt: 4
-        }}
-      >
+      <Typography
+             variant="h3"
+             gutterBottom
+             sx={{
+               mt: 5,
+               mb: 5,
+               color: darkMode ? '#FFD700' : '#000000',
+               textAlign: 'center',
+               fontWeight: 'bold',
+               textShadow: darkMode ? '0 2px 4px rgba(255, 215, 0, 0.5)' : '0 2px 4px rgba(0, 0, 0, 0.2)',
+               position: 'relative',
+             
+             }}
+           >
         Join Our Exciting Team!
       </Typography>
       
