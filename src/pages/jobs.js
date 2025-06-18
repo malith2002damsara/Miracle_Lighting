@@ -50,6 +50,7 @@ const Jobs = ({ darkMode }) => {
              variant="h3"
              gutterBottom
              sx={{
+               
                mt: 5,
                mb: 5,
                color: darkMode ? '#FFD700' : '#000000',
@@ -57,7 +58,6 @@ const Jobs = ({ darkMode }) => {
                fontWeight: 'bold',
                textShadow: darkMode ? '0 2px 4px rgba(255, 215, 0, 0.5)' : '0 2px 4px rgba(0, 0, 0, 0.2)',
                position: 'relative',
-             
              }}
            >
         Join Our Exciting Team!
