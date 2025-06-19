@@ -126,7 +126,7 @@ const TempleDecorativeLighting = ({ darkMode }) => {
       </Box>
 
       {/* See More/See Less Button */}
-      <Box sx={{ mt: 4, textAlign: 'center' }}>
+      {/* <Box sx={{ mt: 4, textAlign: 'center' }}>
         {!showAllImages && images.length > 4 ? (
           <Button 
             onClick={handleSeeMore}
@@ -160,7 +160,7 @@ const TempleDecorativeLighting = ({ darkMode }) => {
             See Less
           </Button>
         ) : null}
-      </Box>
+      </Box> */}
     </Container>
   );
 };

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const HomeVideo = ({ darkMode }) => {
   return (
     <>
-      {/* First Video Section */}
+      {/* First Image Section */}
       <Box
         sx={{
           display: 'flex',
@@ -17,7 +17,7 @@ const HomeVideo = ({ darkMode }) => {
           gap: 4,
         }}
       >
-        {/* First Video */}
+        {/* First Image */}
         <Box
           sx={{
             width: { xs: '100%', md: '50%' },
@@ -26,21 +26,18 @@ const HomeVideo = ({ darkMode }) => {
             mb: { xs: 2, md: 0 },
           }}
         >
-          <video
-            autoPlay
-            loop
-            muted
+          <img
+            src="/images/About1.jpg"
+            alt="Miracle Lighting Event"
             style={{
-              width: '43%',
+              width: '100%',
               height: '80%',
               maxHeight: '550px',
               borderRadius: '10px',
               boxShadow: darkMode ? '0 0 20px rgba(255, 215, 0, 0.5)' : '0 0 20px rgba(0,0,0,0.2)',
+              objectFit: 'cover',
             }}
-          >
-            <source src="/videos/11.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          />
         </Box>
 
         {/* First Content Section */}
@@ -50,8 +47,8 @@ const HomeVideo = ({ darkMode }) => {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
-            alignItems: 'center', // Center content horizontally
-            textAlign: 'center', // Center text alignment
+            alignItems: 'center',
+            textAlign: 'center',
             px: { xs: 2, md: 4 },
             color: darkMode ? '#FFD700' : '#4A4A4A',
           }}
@@ -77,15 +74,15 @@ const HomeVideo = ({ darkMode }) => {
                 color: darkMode ? '#FFF' : '#000',
               }
             }}
-             component={Link}
-              to="/event"
+            component={Link}
+            to="/event"
           >
             Explore Our Events
           </Button>
         </Box>
       </Box>
 
-      {/* Second Video Section */}
+      {/* Second Image Section */}
       <Box
         sx={{
           display: 'flex',
@@ -104,11 +101,11 @@ const HomeVideo = ({ darkMode }) => {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
-            alignItems: 'center', // Center content horizontally
-            textAlign: 'center', // Center text alignment
+            alignItems: 'center',
+            textAlign: 'center',
             px: { xs: 2, md: 4 },
             color: darkMode ? '#FFD700' : '#4A4A4A',
-            order: { xs: 2, md: 1 } // Change order for mobile
+            order: { xs: 2, md: 1 }
           }}
         >
           <Typography variant="h4" sx={{ mb: 3, fontWeight: 'bold', color: darkMode ? '#FFD700' : '#4A4A4A', }}>
@@ -133,53 +130,35 @@ const HomeVideo = ({ darkMode }) => {
               }
             }}
             component={Link}
-              to="/gallery"
+            to="/gallery"
           >
             View Our Gallery
           </Button>
         </Box>
 
-        {/* Second Video */}
+        {/* Second Image */}
         <Box
           sx={{
             width: { xs: '100%', md: '50%' },
             display: 'flex',
             justifyContent: 'center',
             mb: { xs: 2, md: 0 },
-            order: { xs: 1, md: 2 } // Change order for mobile
+            order: { xs: 1, md: 2 }
           }}
         >
-          <video
-            autoPlay
-            loop
-            muted
+          <img
+            src="/images/Cano5.jpg"
+            alt="Custom Lighting Design"
             style={{
-              width: '43%',
+              width: '80%',
               height: '80%',
               maxHeight: '550px',
               borderRadius: '10px',
               boxShadow: darkMode ? '0 0 20px rgba(255, 215, 0, 0.5)' : '0 0 20px rgba(0,0,0,0.2)',
+              objectFit: 'cover',
             }}
-          >
-            <source src="/videos/22.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          />
         </Box>
-      </Box>
-
-      {/* Third Video Section */}
-      <Box
-        sx={{
-          display: 'flex',
-          flexDirection: { xs: 'column', md: 'row' },
-          alignItems: 'center',
-          justifyContent: 'center',
-          width: '100%',
-          mb: { xs: 4, md: 8 },
-          gap: 4,
-        }}
-      >
-       
       </Box>
     </>
   );

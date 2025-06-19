@@ -79,7 +79,7 @@ const AboutUs = ({ darkMode }) => {
       disableGutters
       sx={{
         minHeight: '100vh',
-        backgroundImage: 'url("/about.jpg")',
+        backgroundImage: 'url("/images/About.jpg")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         position: 'relative',
@@ -112,10 +112,10 @@ const AboutUs = ({ darkMode }) => {
                  sx={{
                    mt: 9,
                    mb: 5,
-                   color: darkMode ? '#FFD700' : '#000000',
+                   color: darkMode ? '#FFD700' : '#FFD700',
                    textAlign: 'center',
                    fontWeight: 'bold',
-                   textShadow: darkMode ? '0 2px 4px rgba(255, 215, 0, 0.5)' : '0 2px 4px rgba(0, 0, 0, 0.2)',
+                   
                    position: 'relative',
                  
                  }}
@@ -137,10 +137,10 @@ const AboutUs = ({ darkMode }) => {
                   sx={{
                     mt: 5,
                     mb: 5,
-                    color: darkMode ? '#FFD700' : '#000000',
+                    color: darkMode ? '#FFD700' : '#FFD700',
                     textAlign: 'center',
                     fontWeight: 'bold',
-                    textShadow: darkMode ? '0 2px 4px rgba(255, 215, 0, 0.5)' : '0 2px 4px rgba(0, 0, 0, 0.2)',
+                    
                     position: 'relative',
                   
                   }}

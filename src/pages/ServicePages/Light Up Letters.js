@@ -38,7 +38,7 @@ const LightUpLetters = ({ darkMode }) => {
     setShowAllImages(false);
   };
 
-  const imagesToShow = showAllImages ? images : images.slice(0, 4);
+  const imagesToShow = showAllImages ? images : images.slice(0, 5);
 
   const chunkImages = (arr, size) => {
     const chunks = [];
@@ -48,7 +48,7 @@ const LightUpLetters = ({ darkMode }) => {
     return chunks;
   };
 
-  const imageRows = chunkImages(imagesToShow, 4);
+  const imageRows = chunkImages(imagesToShow, 5);
 
   return (
     <Container

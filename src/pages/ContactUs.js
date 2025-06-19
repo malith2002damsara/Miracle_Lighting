@@ -22,7 +22,7 @@ const ContactUs = ({ darkMode }) => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundImage: 'url("/contact.jpg")',
+        backgroundImage: 'url("./images/Contact.jpg")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         color: darkMode ? '#FFD700' : '#FFD700',
@@ -37,10 +37,10 @@ const ContactUs = ({ darkMode }) => {
                     sx={{
                       mt: 5,
                       mb: 5,
-                      color: darkMode ? '#FFD700' : '#000000',
+                      color: darkMode ? '#FFD700' : '#FFD700',
                       textAlign: 'center',
                       fontWeight: 'bold',
-                      textShadow: darkMode ? '0 2px 4px rgba(255, 215, 0, 0.5)' : '0 2px 4px rgba(0, 0, 0, 0.2)',
+                     
                       position: 'relative',
                     
                     }}
@@ -110,7 +110,7 @@ const ContactUs = ({ darkMode }) => {
     }}
   >
     <PhoneIcon />
-    (078) 127-7601  / (077) 117-8945  / (077) 627-0882
+    (078) 127-7601  / (077) 117-8945
 
   </Typography>
 

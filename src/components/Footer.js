@@ -107,7 +107,7 @@ const Footer = ({ darkMode }) => {
               WhatsApp
             </Button>
             <Button
-              href="tel:+94771178945"
+              href="tel:+94781277601"
               variant="outlined"
               startIcon={<Phone sx={{ fontSize: iconSize - 6 }} />}
               sx={{
@@ -185,7 +185,7 @@ const Footer = ({ darkMode }) => {
       </Typography>
 
       <Typography variant="body2" sx={{ textAlign: 'center', mt: 2 }}>
-        For inquiries, please call us at: <Link href="tel:+94781277601">0781277601</Link>, <Link href="tel:+94771178945">0771178945</Link>, <Link href="tel:+94776270882">0776270882</Link> or email us at: <Link href="mailto:miraclelighting9@gmail.com">miraclelighting9@gmail.com</Link>.
+        For inquiries, please call us at: <Link href="tel:+94781277601">0781277601</Link>, <Link href="tel:+94771178945">0771178945</Link> or email us at: <Link href="mailto:miraclelighting9@gmail.com">miraclelighting9@gmail.com</Link>.
       </Typography>
 
       <Typography variant="body2" sx={{ textAlign: 'center', mt: 2 }}>

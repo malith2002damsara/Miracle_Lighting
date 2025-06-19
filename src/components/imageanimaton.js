@@ -5,10 +5,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import './imageanimaton.css';
 
 const images = [
-  'images/Indo1.jpg',
+  'images/Indo6.jpg',
   'images/Outd2.jpg',
-  'images/Back2.jpg',
-  'images/Fest3.jpg',
+  'images/Back8.jpg',
+  'images/Fest6.jpg',
   'images/Chin4.jpg',
 ];
 
