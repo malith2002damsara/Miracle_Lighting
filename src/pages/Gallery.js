@@ -8,19 +8,49 @@ import { useLocation } from 'react-router-dom';
 const Gallery = ({ darkMode }) => {
   const location = useLocation();
   const categories = {
-    wedding: ['/images/Fair1.jpg', 
-      '/wedding4.jpg',
-       '/wedding5.jpg',
-        '/wedding6.jpg',
-         '/wedding7.jpg',
-          '/wedding8.jpg'],
+    wedding: [
+
+      '/images/Back3.jpg', '/images/Fair5.jpg', '/images/Indo2.jpg',
+      '/images/Back1.jpg', '/images/Outd4.jpg', '/images/Chan7.jpg',
+      '/images/Fest1.jpg', '/images/Path2.jpg', '/images/Outd3.jpg',
+      '/images/Fair2.jpg', '/images/Indo7.jpg', '/images/Chan4.jpg',
+      '/images/Outd1.jpg', '/images/Lett3.jpg', '/images/Chin5.jpg',
+      '/images/Back2.jpg', '/images/Fair4.jpg', '/images/Fest8.jpg',
+      '/images/Indo5.jpg', '/images/Chan1.jpg', '/images/Indo4.jpg',
+      '/images/Fest3.jpg', '/images/Back8.jpg', '/images/Back6.jpg',
+      '/images/Back7.jpg', '/images/Chin8.jpg', '/images/Lett5.jpg',
+      '/images/Chan2.jpg', '/images/Back4.jpg', '/images/Outd6.jpg',
+      '/images/Chin3.jpg', '/images/Fest6.jpg', '/images/Cano2.jpg',
+      '/images/Fair7.jpg', '/images/Indo1.jpg', '/images/Chan5.jpg',
+      '/images/Chin2.jpg', '/images/Fest4.jpg', '/images/Path1.jpg',
+      '/images/Fair3.jpg', '/images/Indo8.jpg', '/images/Outd7.jpg',
+      '/images/Outd2.jpg', '/images/Lett1.jpg', '/images/Chin7.jpg',
+      '/images/Cano4.jpg', '/images/Fair8.jpg', '/images/Indo3.jpg',
+      '/images/Chan8.jpg', '/images/Outd5.jpg', '/images/Lett4.jpg',
+      '/images/Fest2.jpg', '/images/Cano1.jpg', '/images/Fair6.jpg',
+      '/images/Indo6.jpg', '/images/Chan3.jpg', '/images/Chin4.jpg',
+      '/images/Fest7.jpg', '/images/Cano5.jpg', '/images/Outd8.jpg',
+      '/images/Chin1.jpg', '/images/Fest5.jpg', '/images/Chan6.jpg',
 
 
-    Religious: ['/images/Fair1.jpg',
-       '/Fair1.jpg',
-        '/kathina3.jpg'],
 
-        
+    ],
+
+
+    Religious: [
+
+      '/images/Reli10.jpg', '/images/Temp2.jpg', '/images/Cano6.jpg', '/images/Reli19.jpg',
+      '/images/Fair1.jpg', '/images/Path3.jpg', '/images/Outd10.jpg', '/images/Reli13.jpg',
+      '/images/Temp3.jpg', '/images/Reli12.jpg', '/images/Cano15.jpg', '/images/Reli1.jpg',
+      '/images/Path4.jpg', '/images/Reli5.jpg', '/images/Fair23.jpg', '/images/Reli8.jpg',
+      '/images/Temp1.jpg', '/images/Reli16.jpg', '/images/Cano3.jpg', '/images/Reli7.jpg',
+      '/images/Reli20.jpg', '/images/Reli6.jpg', '/images/Reli14.jpg', '/images/Cano7.jpg',
+      '/images/Reli2.jpg', '/images/Reli17.jpg', '/images/Reli4.jpg', '/images/Reli18.jpg',
+      '/images/Reli11.jpg',
+
+    ],
+
+
     // birthday: ['/images/Fair1.jpg', '/birthday2.jpg', '/birthday3.jpg'],
     // christmas: ['/christmas1.jpg', '/christmas2.jpg', '/christmas3.jpg']
   };
@@ -47,21 +77,21 @@ const Gallery = ({ darkMode }) => {
   return (
     <Box sx={{ py: 10, px: { xs: 2, sm: 4 }, position: 'relative' }}>
       <Typography
-             variant="h3"
-             gutterBottom
-             sx={{
-               mt: 5,
-               mb: 5,
-               color: darkMode ? '#FFD700' : '#000000',
-               textAlign: 'center',
-               fontWeight: 'bold',
-               textShadow: darkMode ? '0 2px 4px rgba(255, 215, 0, 0.5)' : '0 2px 4px rgba(0, 0, 0, 0.2)',
-               position: 'relative',
-             
-             }}
-           >
-             Gallery
-           </Typography>
+        variant="h3"
+        gutterBottom
+        sx={{
+          mt: 5,
+          mb: 5,
+          color: darkMode ? '#FFD700' : '#000000',
+          textAlign: 'center',
+          fontWeight: 'bold',
+          textShadow: darkMode ? '0 2px 4px rgba(255, 215, 0, 0.5)' : '0 2px 4px rgba(0, 0, 0, 0.2)',
+          position: 'relative',
+
+        }}
+      >
+        Gallery
+      </Typography>
 
       {!selectedCategory ? (
         <Grid container spacing={4} justifyContent="center">
@@ -89,7 +119,7 @@ const Gallery = ({ darkMode }) => {
                   image={categories[category][0]} // Show only the first image
                   alt={`Category ${category}`}
                   sx={{
-                    filter: 'brightness(0.7) grayscale(30%)',
+                    filter: 'brightness(1.0) grayscale(30%)',
                     transition: 'filter 0.3s, transform 0.3s',
                     '&:hover': {
                       filter: 'brightness(1) grayscale(0%)',
@@ -142,10 +172,10 @@ const Gallery = ({ darkMode }) => {
             <ArrowBackIcon />
           </IconButton>
 
-          <Typography 
-            variant="h4" 
-            sx={{ 
-              textAlign: 'center', 
+          <Typography
+            variant="h4"
+            sx={{
+              textAlign: 'center',
               mb: 4,
               color: darkMode ? '#FFD700' : '#4A4A4A',
               '&::after': {
