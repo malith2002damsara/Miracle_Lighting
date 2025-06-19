@@ -5,18 +5,18 @@ import ServiceCard from '../components/ServiceCard'; // Assuming ServiceCard is 
 
 const services = [
   { title: 'Indoor Lighting', description: 'Elegant Ambience for Indoor Events', image: '/images/Indo1.jpg', link: '/indoor-lighting' },
-  { title: 'Outdoor Lighting', description: 'Enchant Your Outdoor Celebrations', image: '/images/Outd1.jpg', link: '/outdoor-lighting' },
-  { title: 'Backdrop Lighting', description: 'Glow Up Your Backdrops', image: '/images/Back1.jpg', link: '/backdrop-lighting' },
-  { title: 'Chandeliers', description: 'Classic Luxury with Chandeliers', image: '/images/Chan1.jpg', link: '/Chandeliers' },
-  { title: 'Chinese Lanterns', description: 'Cultural Beauty in Every Glow', image: '/images/Chin1.jpg', link: '/Chinese-Lanterns' },
+  { title: 'Outdoor Lighting', description: 'Enchant Your Outdoor Celebrations', image: '/images/Outd2.jpg', link: '/outdoor-lighting' },
+  { title: 'Backdrop Lighting', description: 'Glow Up Your Backdrops', image: '/images/Back8.jpg', link: '/backdrop-lighting' },
+  { title: 'Chandeliers', description: 'Classic Luxury with Chandeliers', image: '/images/Chan2.jpg', link: '/Chandeliers' },
+  { title: 'Chinese Lanterns', description: 'Cultural Beauty in Every Glow', image: '/images/Chin4.jpg', link: '/Chinese-Lanterns' },
   // { title: 'Christmas Tree Lights', description: 'Sparkling Trees for Christmas', image: '/images/Tree1.jpg', link: '/Christmas-Tree-Lights' },
-  { title: 'Fairy Lights', description: 'Magical Touch with Fairy Lights', image: '/images/Fair1.jpg', link: '/Fairy-Lights' },
-  { title: 'Festoon Lights', description: 'Vintage Charm with Festoon Lights', image: '/images/Fest1.jpg', link: '/Festoon-Lights' },
-  { title: 'LightUp Letters', description: 'Say It with Bright Letters', image: '/images/Lett1.jpg', link: '/Light-Up-Letters' },
+  { title: 'Fairy Lights', description: 'Magical Touch with Fairy Lights', image: '/images/Fair5.jpg', link: '/Fairy-Lights' },
+  { title: 'Festoon Lights', description: 'Vintage Charm with Festoon Lights', image: '/images/Fest8.jpg', link: '/Festoon-Lights' },
+  { title: 'LightUp Letters', description: 'Say It with Bright Letters', image: '/images/Lett5.jpg', link: '/Light-Up-Letters' },
   // { title: 'LightUp Reindeer Or Snowman', description: 'Festive Figures that Glow Bright', image: '/images/Deer1.jpg', link: '/Light-up-Reindeer-or-Snowman' },
   { title: 'Pathway Lights', description: 'Guide Guests with Style', image: '/images/Path1.jpg', link: '/Pathway-Lights' },
   { title: 'Temple Decorative Lighting', description: 'Sacred Beauty with Lighting Art', image: '/images/Temp1.jpg', link: '/Temple-Decorative-Lighting' },
-  { title: 'Up Lighting', description: 'Elevate Spaces with Up Lighting', image: '/images/Up1.jpg', link: '/Up-lighting' },
+  { title: 'Up Lighting', description: 'Elevate Spaces with Up Lighting', image: '/images/Up8.jpg', link: '/Up-lighting' },
   { title: 'Canopy String Lights', description: 'Starry Nights Under a Canopy', image: '/images/Cano1.jpg', link: '/Canopy-String-Lights' },
 ];
 

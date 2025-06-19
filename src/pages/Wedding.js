@@ -5,14 +5,14 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/wedding1.jpg',
-  '/wedding2.jpg',
-  '/wedding3.jpg',
-  '/wedding4.jpg',
-  '/wedding5.jpg',
-  '/wedding6.jpg',
-  '/wedding7.jpg',
-  '/wedding8.jpg',
+  '/images/Cano1.jpg',
+  '/images/Back7.jpg',
+  '/images/Chan4.jpg',
+  '/images/Chin3.jpg',
+  '/images/Fair7.jpg',
+  '/images/Lett1.jpg',
+  '/images/Outd8.jpg',
+  '/images/Indo2.jpg',
 ];
 
 const Wedding = ({ darkMode }) => {

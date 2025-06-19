@@ -5,14 +5,14 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const images = [
-  '/kathina1.jpg',
-  '/kathina2.jpg',
-  '/kathina3.jpg',
-  '/kathina4.jpg',
-  '/kathina5.jpg',
-  '/kathina6.jpg',
-  '/kathina7.jpg',
-  '/kathina8.jpg',
+  'images/Cano3.jpg',
+  'images/Cano6.jpg',
+  'images/Temp1.jpg',
+  'images/Fair1.jpg',
+  'images/Path4.jpg',
+  'images/Reli1.jpg',
+  'images/Temp3.jpg',
+  'images/Reli7.jpg',
 ];
 
 const KathinaFestival = ({ darkMode }) => {
@@ -23,7 +23,7 @@ const KathinaFestival = ({ darkMode }) => {
   }, []);
 
   const goToGallery = () => {
-    navigate('/gallery', { state: { selectedCategory: 'kathina' } });
+    navigate('/gallery', { state: { selectedCategory: 'Religious' } });
   };
 
   const imagesToShow = images;
