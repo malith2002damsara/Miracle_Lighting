@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography, Link, Grid, Button } from '@mui/material';
-import { Facebook, Instagram, WhatsApp, Mail, YouTube, Phone } from '@mui/icons-material'; 
+import { Google,Facebook, Instagram, WhatsApp, Mail, YouTube, Phone } from '@mui/icons-material'; 
 import TikTokIcon from '@mui/icons-material/MusicNote'; 
 import { FaFacebookMessenger } from 'react-icons/fa';
 
@@ -143,8 +143,9 @@ const Footer = ({ darkMode }) => {
           { icon: <WhatsApp sx={{ fontSize: iconSize }} />, link: "https://wa.me/+94781277601", label: "WhatsApp" },
           { icon: <Facebook sx={{ fontSize: iconSize }} />, link: "https://www.facebook.com/profile.php?id=100093008904723", label: "Facebook" },
           { icon: <FaFacebookMessenger size={iconSize} />, link: "https://m.me/113787751734562?source=qr_link_share", label: "Messenger" },
+          { icon: <Google sx={{ fontSize: iconSize }} />, link: "https://share.google/Qaz8nFQ3rsjlb5kU2", label: "Google Business" },
           { icon: <Instagram sx={{ fontSize: iconSize }} />, link: "https://www.instagram.com/_miracle_lighting?utm_source=qr&igsh=amF0NGc3eGl5aWw1", label: "Instagram" },
-          { icon: <YouTube sx={{ fontSize: iconSize }} />, link: "https://youtube.com/@miraclelighting-m5b?si=i_xGYe9ZblMet0jj", label: "YouTube" },
+          { icon: <YouTube sx={{ fontSize: iconSize }} />, link: "https://youtube.com/@miracle_lighting?si=SSUPc4_OBzGiI3k8", label: "YouTube" },
           { icon: <TikTokIcon sx={{ fontSize: iconSize }} />, link: "https://www.tiktok.com/@miracle_lighting?_t=ZS-8w6OT8FHphg&_r=1", label: "TikTok" }
         ].map((social, index) => (
           <Box key={index} textAlign="center" sx={{ width: 80 }}>
