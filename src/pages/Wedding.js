@@ -3,6 +3,7 @@ import { Box, Typography, Container, Button, CardMedia } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
+import SEO from '../components/SEO';
 
 const images = [
   '/images/Cano1.jpg',
@@ -58,7 +59,15 @@ const Wedding = ({ darkMode }) => {
   const imageRows = chunkImages(imagesToShow, 4);
 
   return (
-    <Container
+    <>
+      <SEO 
+        title="Wedding Lighting Services | Miracle Lighting Sri Lanka"
+        description="Create magical moments with our stunning wedding lighting solutions. Professional decorative lighting including fairy lights, chandeliers, and backdrop lighting for your special day in Sri Lanka."
+        keywords="wedding lights, wedding decoration, bridal lighting, wedding fairy lights, wedding chandeliers, Sri Lanka weddings, marriage decoration"
+        url="https://miraclelighting.lk/wedding"
+      />
+      
+      <Container
       sx={{
         py: 8,
         backgroundColor: darkMode ? '#000000' : '#FFFFFF',
@@ -188,6 +197,7 @@ const Wedding = ({ darkMode }) => {
         </Button>
       </Box>
     </Container>
+    </>
   );
 };
 

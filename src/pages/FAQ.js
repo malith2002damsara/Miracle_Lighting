@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Box, Typography, IconButton, Container, Collapse } from '@mui/material';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import SEO from '../components/SEO';
 
 // Define animations
 const fadeInAnimation = {
@@ -65,7 +66,15 @@ const FAQ = ({ darkMode }) => {
   };
 
   return (
-    <Container
+    <>
+      <SEO 
+        title="FAQ | Miracle Lighting - Common Questions About Event Lighting"
+        description="Find answers to frequently asked questions about our decorative lighting services, pricing, installation, and booking process."
+        keywords="lighting FAQ, event lighting questions, wedding lighting help, Miracle Lighting information"
+        url="https://miraclelighting.lk/FAQ"
+      />
+      
+      <Container
       sx={{
         minHeight: '100vh',
         minWidth: '100vw',
@@ -173,6 +182,7 @@ const FAQ = ({ darkMode }) => {
 
      
     </Container>
+    </>
   );
 };
 

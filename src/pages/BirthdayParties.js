@@ -3,6 +3,7 @@ import { Box, Typography, Container, Button, CardMedia } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
+import SEO from '../components/SEO';
 
 const images = [
   '/birthday1.jpg',
@@ -48,7 +49,15 @@ const BirthdayParties = ({ darkMode }) => {
   const imageRows = chunkImages(imagesToShow, 4);
 
   return (
-    <Container
+    <>
+      <SEO 
+        title="Birthday Party Lighting | Miracle Lighting Sri Lanka"
+        description="Make your birthday celebration unforgettable with Miracle Lighting's colorful and creative lighting setups. Perfect for all ages and party themes in Sri Lanka."
+        keywords="birthday party lights, celebration lighting, party decoration, birthday lights Sri Lanka, kids party lighting"
+        url="https://miraclelighting.lk/birthday-parties"
+      />
+      
+      <Container
       sx={{
         py: 8,
         backgroundColor: darkMode ? '#000000' : '#FFFFFF',
@@ -175,6 +184,7 @@ const BirthdayParties = ({ darkMode }) => {
         </Button>
       </Box>
     </Container>
+    </>
   );
 };
 

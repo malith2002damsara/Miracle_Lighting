@@ -3,6 +3,7 @@ import { Box, Typography, Container, Button, CardMedia } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
+import SEO from '../components/SEO';
 
 const images = [
   '/christmas1.jpg',
@@ -39,7 +40,15 @@ const ChristmasParties = ({ darkMode }) => {
   const imageRows = chunkImages(imagesToShow, 4);
 
   return (
-    <Container
+    <>
+      <SEO 
+        title="Christmas Party Lighting | Miracle Lighting Sri Lanka"
+        description="Transform your Christmas celebration with festive lighting solutions. Christmas tree lights, fairy lights, and decorative illuminations across Sri Lanka."
+        keywords="Christmas lights, Christmas party decoration, festive lighting, Christmas tree lights, holiday lighting Sri Lanka"
+        url="https://miraclelighting.lk/christmas-parties"
+      />
+      
+      <Container
       sx={{
         py: 8,
         backgroundColor: darkMode ? '#000000' : '#FFFFFF',
@@ -166,6 +175,7 @@ const ChristmasParties = ({ darkMode }) => {
         </Button>
       </Box>
     </Container>
+    </>
   );
 };
 

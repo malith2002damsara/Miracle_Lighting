@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, Container, Grid } from '@mui/material';
 import { keyframes } from '@mui/system';
+import SEO from '../components/SEO';
 
 // Keyframes for wave-like animation
 const waveAnimation = keyframes`
@@ -74,7 +75,15 @@ const AboutUs = ({ darkMode }) => {
   };
 
   return (
-    <Container
+    <>
+      <SEO 
+        title="About Us | Miracle Lighting - Professional Event Lighting Sri Lanka"
+        description="Learn about Miracle Lighting, Sri Lanka's trusted provider of decorative lighting for weddings, festivals, and special events since 2017. 7 years of expertise in creating unique and mesmerizing ambiance."
+        keywords="about Miracle Lighting, event lighting company, wedding lighting Sri Lanka, professional lighting services, decorative lighting experts"
+        url="https://miraclelighting.lk/about-us"
+      />
+      
+      <Container
       maxWidth={false}
       disableGutters
       sx={{
@@ -156,6 +165,7 @@ const AboutUs = ({ darkMode }) => {
 </Grid>
 
     </Container>
+    </>
   );
 };
 

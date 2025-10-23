@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'; // Import useEffect
 import { Grid, Typography, Box } from '@mui/material';
 import ServiceCard from '../components/ServiceCard';
+import SEO from '../components/SEO';
 
 const services = [
   {
@@ -36,7 +37,15 @@ const Event = ({ darkMode }) => {
   }, []);
 
   return (
-    <Box
+    <>
+      <SEO 
+        title="Events | Miracle Lighting - Wedding & Festival Lighting Services"
+        description="Explore our event lighting services for weddings and religious festivals. Professional decorative lighting solutions for your special occasions in Sri Lanka."
+        keywords="event lighting, wedding events, religious festivals, Kathina lighting, event decoration Sri Lanka"
+        url="https://miraclelighting.lk/event"
+      />
+      
+      <Box
       sx={{
         py: { xs: 6, sm: 10, md: 15 },
         px: { xs: 3, sm: 10, md: 15 },
@@ -79,6 +88,7 @@ const Event = ({ darkMode }) => {
         ))}
       </Grid>
     </Box>
+    </>
   );
 };
 

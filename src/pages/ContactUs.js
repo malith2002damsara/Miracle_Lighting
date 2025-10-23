@@ -7,6 +7,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import CallIcon from '@mui/icons-material/Call';
 import { FaFacebookMessenger } from 'react-icons/fa';
 import React, { useEffect } from 'react';
+import SEO from '../components/SEO'; // Import SEO Component
 
 //cgfchggvg
 const ContactUs = ({ darkMode }) => {
@@ -15,7 +16,16 @@ const ContactUs = ({ darkMode }) => {
   }, []);
 
   return (
-    <Box
+    <>
+      {/* SEO Meta Tags for Contact Page */}
+      <SEO 
+        title="Contact Us | Miracle Lighting - Get in Touch for Event Lighting"
+        description="Contact Miracle Lighting for all your event and wedding lighting needs. Call us at 078 127-7601 or email miraclelighting9@gmail.com. Professional service across Sri Lanka."
+        keywords="contact, lighting services, event planning, wedding lighting, Sri Lanka, Miracle Lighting contact"
+        url="https://miraclelighting.lk/contact"
+      />
+
+      <Box
       sx={{
         width: '100vw',
         height: '100vh',
@@ -230,7 +240,7 @@ const ContactUs = ({ darkMode }) => {
 </Box>
         </Box>
       </Box>
-
+    </>
   );
 };
 

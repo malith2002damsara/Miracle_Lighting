@@ -6,6 +6,7 @@ import HomeVideo from '../components/HomeVideo';
 import Slider from '../components/Slider';
 import ImageAnimation from '../components/imageanimaton';
 import Navbar from '../components/Navbar'; // Import your Navbar
+import SEO from '../components/SEO'; // Import SEO Component
 // Footer is not imported anymore, since we are removing it
 // import Footer from '../components/Footer';
 
@@ -14,6 +15,14 @@ const Home = () => {
 
   return (
     <>
+      {/* SEO Meta Tags for Home Page */}
+      <SEO 
+        title="Miracle Lighting | Wedding & Event Decorative Lights in Sri Lanka"
+        description="Transform your special occasions with Miracle Lighting's stunning decorative lighting solutions. Expert wedding, Kathina festival, Christmas and birthday party lighting services across Sri Lanka."
+        keywords="wedding lights, event lighting, decorative lights, Sri Lanka, Miracle Lighting, Kathina festival lights, Christmas party lights, birthday party lights"
+        url="https://miraclelighting.lk"
+      />
+
       {/* Navbar Section */}
       <Navbar toggleDarkMode={() => setDarkMode(prev => !prev)} darkMode={darkMode} />
 

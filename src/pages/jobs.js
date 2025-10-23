@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Typography, Grid, Button, Card, CardContent } from '@mui/material';
 import { WhatsApp, EmojiEvents, ElectricBolt, Groups, Schedule } from '@mui/icons-material';
+import SEO from '../components/SEO';
 
 const Jobs = ({ darkMode }) => {
   const jobListings = [
@@ -36,7 +37,15 @@ const Jobs = ({ darkMode }) => {
   };
 
   return (
-    <Box
+    <>
+      <SEO 
+        title="Careers | Join Miracle Lighting Team - Job Opportunities"
+        description="Join the Miracle Lighting team! Explore career opportunities in event lighting, installation, design, and customer service in Sri Lanka."
+        keywords="lighting jobs, event lighting careers, Miracle Lighting jobs, employment opportunities Sri Lanka"
+        url="https://miraclelighting.lk/jobs"
+      />
+      
+      <Box
       sx={{
         p: 4,
         background: darkMode 
@@ -245,6 +254,7 @@ const Jobs = ({ darkMode }) => {
         </Typography>
       </Box>
     </Box>
+    </>
   );
 };
 

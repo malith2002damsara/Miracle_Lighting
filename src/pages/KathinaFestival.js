@@ -3,6 +3,7 @@ import { Box, Typography, Container, Button, CardMedia } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
+import SEO from '../components/SEO';
 
 const images = [
   'images/Cano3.jpg',
@@ -39,7 +40,15 @@ const KathinaFestival = ({ darkMode }) => {
   const imageRows = chunkImages(imagesToShow, 4);
 
   return (
-    <Container
+    <>
+      <SEO 
+        title="Kathina Festival Lighting | Miracle Lighting Sri Lanka"
+        description="Honor the sacred Kathina festival with elegant temple decorative lighting. Traditional and respectful illumination for Buddhist ceremonies in Sri Lanka."
+        keywords="Kathina festival lights, temple lighting, Buddhist ceremony decoration, religious event lighting, temple decorative lights Sri Lanka"
+        url="https://miraclelighting.lk/religious-festivals"
+      />
+      
+      <Container
       sx={{
         py: 8,
         backgroundColor: darkMode ? '#000000' : '#FFFFFF',
@@ -167,6 +176,7 @@ const KathinaFestival = ({ darkMode }) => {
         </Button>
       </Box>
     </Container>
+    </>
   );
 };
 

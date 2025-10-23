@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Box, Grid, Typography, IconButton } from '@mui/material';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import ServiceCard from '../components/ServiceCard'; // Assuming ServiceCard is in the same directory
+import SEO from '../components/SEO'; // Import SEO Component
 
 const services = [
   { title: 'Indoor Lighting', description: 'Elegant Ambience for Indoor Events', image: '/images/Indo1.jpg', link: '/indoor-lighting' },
@@ -48,6 +49,14 @@ const Services = ({ darkMode }) => {
       backgroundColor: darkMode ? '#121212' : '#ffffff',
       minHeight: '100vh'
     }}>
+      {/* SEO Meta Tags for Services Page */}
+      <SEO 
+        title="Our Services | Miracle Lighting - Event & Wedding Lighting Sri Lanka"
+        description="Explore our comprehensive decorative lighting services including indoor, outdoor, backdrop lighting, chandeliers, fairy lights, festoon lights and more for weddings and events in Sri Lanka."
+        keywords="lighting services, event lighting, wedding decoration, indoor lighting, outdoor lighting, fairy lights, chandeliers, Sri Lanka"
+        url="https://miraclelighting.lk/services"
+      />
+
       <Typography
                        variant="h3"
                        gutterBottom

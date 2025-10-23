@@ -4,6 +4,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 import { useLocation } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 const Gallery = ({ darkMode }) => {
   const location = useLocation();
@@ -75,7 +76,15 @@ const Gallery = ({ darkMode }) => {
   }, [location.state]);
 
   return (
-    <Box sx={{ py: 10, px: { xs: 2, sm: 4 }, position: 'relative' }}>
+    <>
+      <SEO 
+        title="Gallery | Miracle Lighting - View Our Stunning Light Decorations"
+        description="Browse our gallery of beautiful lighting decorations for weddings, Kathina festivals, Christmas parties, and birthday celebrations across Sri Lanka."
+        keywords="lighting gallery, wedding decoration photos, event lighting pictures, decorative lights Sri Lanka, miracle lighting portfolio"
+        url="https://miraclelighting.lk/gallery"
+      />
+      
+      <Box sx={{ py: 10, px: { xs: 2, sm: 4 }, position: 'relative' }}>
       <Typography
         variant="h3"
         gutterBottom
@@ -221,6 +230,7 @@ const Gallery = ({ darkMode }) => {
         </>
       )}
     </Box>
+    </>
   );
 };
 
