@@ -18,19 +18,11 @@ const images = [
 
 const BirthdayParties = ({ darkMode }) => {
   const navigate = useNavigate();
-  const [showAllImages, setShowAllImages] = useState(false);
+  const [showAllImages] = useState(false);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  const handleSeeMore = () => {
-    setShowAllImages(true);
-  };
-
-  const handleSeeLess = () => {
-    setShowAllImages(false);
-  };
 
   const goToGallery = () => {
     navigate('/gallery', { state: { selectedCategory: 'birthday' } });

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Typography, Container, Button, CardMedia } from '@mui/material';
+import { Box, Typography, Container, CardMedia } from '@mui/material';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
@@ -15,7 +15,7 @@ const images = [
 ];
 
 const PathwayLights = ({ darkMode }) => {
-  const [showAllImages, setShowAllImages] = useState(false);
+  const [showAllImages] = useState(false);
   // const scrollToTop = () => {
   //   window.scrollTo({
   //     top: 0,
@@ -27,13 +27,7 @@ const PathwayLights = ({ darkMode }) => {
     window.scrollTo(0, 0);
   }, []);
 
-  const handleSeeMore = () => {
-    setShowAllImages(true);
-  };
-
-  const handleSeeLess = () => {
-    setShowAllImages(false);
-  };
+ 
 
   const imagesToShow = showAllImages ? images : images.slice(0, 4);
 

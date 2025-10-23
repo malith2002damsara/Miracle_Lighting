@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, Container, Button, CardMedia } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
@@ -17,15 +16,10 @@ const images = [
 ];
 
 const Chandeliers = ({ darkMode }) => {
-  const navigate = useNavigate();
+  
   const [showAllImages, setShowAllImages] = useState(false);
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
+ 
 
   useEffect(() => {
     window.scrollTo(0, 0);

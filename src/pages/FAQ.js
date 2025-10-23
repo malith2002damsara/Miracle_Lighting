@@ -15,7 +15,7 @@ const fadeInAnimation = {
 
 const FAQ = ({ darkMode }) => {
   const [expandedIndex, setExpandedIndex] = useState(null);
-  const [showScroll, setShowScroll] = useState(false);
+  const [ setShowScroll] = useState(false);
   const questionRefs = useRef([]);
 
   const faqs = [
@@ -48,7 +48,7 @@ const FAQ = ({ darkMode }) => {
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, );
 
   const toggleQuestion = (index) => {
     if (expandedIndex === index) {

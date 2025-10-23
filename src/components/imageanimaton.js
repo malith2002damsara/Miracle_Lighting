@@ -26,7 +26,7 @@ const IMAGE_HEIGHT = 320;
 
 const ImageAnimation = ({ darkMode }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [direction, setDirection] = useState(0); // 0 for forward, 1 for backward
+  const [direction] = useState(0); // 0 for forward, 1 for backward
 
   const settings = {
     dots: true,
