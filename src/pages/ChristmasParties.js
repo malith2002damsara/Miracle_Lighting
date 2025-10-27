@@ -42,9 +42,9 @@ const ChristmasParties = ({ darkMode }) => {
   return (
     <>
       <SEO 
-        title="Christmas Party Lighting | Miracle Lighting Sri Lanka"
-        description="Transform your Christmas celebration with festive lighting solutions. Christmas tree lights, fairy lights, and decorative illuminations across Sri Lanka."
-        keywords="Christmas lights, Christmas party decoration, festive lighting, Christmas tree lights, holiday lighting Sri Lanka"
+        title="Christmas Party Lighting & Decoration | Miracle Lighting Sri Lanka"
+        description="Transform your Christmas celebration with festive lighting solutions. Christmas tree lights, fairy lights, snowflake projections, outdoor decorations and festive illuminations for homes, offices and events across Sri Lanka."
+        keywords="Christmas lights, Christmas party decoration, festive lighting, Christmas tree lights, holiday lighting Sri Lanka, snowflake lights, Christmas outdoor lighting, festive party lights, office Christmas lights, home Christmas decoration, LED Christmas lights"
         url="https://miraclelighting.lk/christmas-parties"
       />
       
@@ -75,7 +75,7 @@ const ChristmasParties = ({ darkMode }) => {
          
         }}
       >
-        Christmas Parties
+        Christmas Party Lighting & Decorations
       </Typography>
       <Typography 
         variant="body1" 
@@ -91,7 +91,7 @@ const ChristmasParties = ({ darkMode }) => {
           padding: '0 20px',
         }}
       >
-    Bring the festive cheer to life with our enchanting Christmas lighting services. We offer everything from classic string lights and snowflake projections to elegant indoor and outdoor arrangements. Perfect for homes, offices, or events, our lighting adds warmth, wonder, and that magical Christmas glow to your celebrations. </Typography>
+    Bring the festive cheer to life with our enchanting Christmas lighting services. We offer everything from classic string lights, snowflake projections, LED Christmas trees to elegant indoor and outdoor arrangements. Perfect for homes, offices, corporate events or private parties, our lighting adds warmth, wonder, and that magical Christmas glow to your celebrations. Make this holiday season unforgettable with colorful festive illuminations. </Typography>
 
       <Box sx={{ mt: 4 }}>
         {imageRows.map((row, rowIndex) => (

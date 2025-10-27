@@ -42,9 +42,9 @@ const KathinaFestival = ({ darkMode }) => {
   return (
     <>
       <SEO 
-        title="Kathina Festival Lighting | Miracle Lighting Sri Lanka"
-        description="Honor the sacred Kathina festival with elegant temple decorative lighting. Traditional and respectful illumination for Buddhist ceremonies in Sri Lanka."
-        keywords="Kathina festival lights, temple lighting, Buddhist ceremony decoration, religious event lighting, temple decorative lights Sri Lanka"
+        title="Religious Festival Lighting - Kathina, Vesak & Temple Decorations | Miracle Lighting"
+        description="Illuminate sacred Buddhist ceremonies with Miracle Lighting. Specializing in Kathina, Vesak, Poson, and temple festival decorations. Traditional and respectful lighting for religious events across Sri Lanka."
+        keywords="Kathina festival lights, Vesak lighting, Poson festival decorations, temple lighting, Buddhist ceremony decoration, religious event lighting, temple decorative lights Sri Lanka, Vesak lanterns, Buddhist festival illumination, Dhamma chakra lighting"
         url="https://miraclelighting.lk/religious-festivals"
       />
       
@@ -75,7 +75,7 @@ const KathinaFestival = ({ darkMode }) => {
          
         }}
       >
-        Religious Festival
+        Religious Festival Lighting - Kathina, Vesak & Temple Decorations
       </Typography>
       <Typography 
         variant="body1" 
@@ -91,7 +91,7 @@ const KathinaFestival = ({ darkMode }) => {
           padding: '0 20px',
         }}
       >
-    Celebrate the spiritual significance of festivals like Kathina, Vesak, and Poson with vibrant and respectful lighting displays. From traditional lanterns to modern thematic designs, our lighting captures the essence of your religious celebration. We blend creativity with cultural reverence to create an atmosphere that inspires peace, devotion, and festivity. </Typography>
+    Illuminate sacred Buddhist ceremonies with respectful and beautiful lighting. We specialize in Kathina, Vesak, Poson, and other temple festivals across Sri Lanka. From traditional Vesak lanterns and Dhamma chakra illuminations to temple pathway lighting and backdrop decorations, we blend cultural reverence with modern design. Our lighting captures the spiritual essence of your religious celebration, creating an atmosphere of peace, devotion, and festivity that honors Buddhist traditions. </Typography>
 
       <Box sx={{ mt: 4 }}>
         {imageRows.map((row, rowIndex) => (

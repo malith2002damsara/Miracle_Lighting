@@ -43,9 +43,9 @@ const BirthdayParties = ({ darkMode }) => {
   return (
     <>
       <SEO 
-        title="Birthday Party Lighting | Miracle Lighting Sri Lanka"
-        description="Make your birthday celebration unforgettable with Miracle Lighting's colorful and creative lighting setups. Perfect for all ages and party themes in Sri Lanka."
-        keywords="birthday party lights, celebration lighting, party decoration, birthday lights Sri Lanka, kids party lighting"
+        title="Birthday Party Lighting & Decoration | Miracle Lighting Sri Lanka"
+        description="Make your birthday celebration unforgettable with Miracle Lighting's colorful and creative lighting setups. LED party lights, themed decorations, balloon lighting, and vibrant illuminations perfect for kids, teens and adults birthday parties across Sri Lanka."
+        keywords="birthday party lights, celebration lighting, party decoration, birthday lights Sri Lanka, kids party lighting, LED party lights, balloon lighting, themed party lights, colorful party decoration, vibrant birthday lights, party centerpiece lighting, adult birthday party lights"
         url="https://miraclelighting.lk/birthday-parties"
       />
       
@@ -75,7 +75,7 @@ const BirthdayParties = ({ darkMode }) => {
           
         }}
       >
-        Birthday Parties
+        Birthday Party Lighting & Decorations
       </Typography>
       <Typography 
         variant="body1" 
@@ -91,7 +91,7 @@ const BirthdayParties = ({ darkMode }) => {
           padding: '0 20px',
         }}
       >
-       Turn your birthday party into a dazzling celebration with our colorful and exciting lighting setups. Whether it's for kids, teens, or adults, we provide customized lighting themes that match your style and energy. From vibrant LEDs to glowing centerpieces, our lights bring joy and liveliness to your special day. </Typography>
+       Turn your birthday party into a dazzling celebration with our colorful and exciting lighting setups. Whether it's for kids, teens, or adults, we provide customized lighting themes that match your style and energy. From vibrant LEDs, balloon lighting, themed decorations to glowing centerpieces, our lights bring joy, liveliness and unforgettable memories to your special day. Perfect for home parties, outdoor venues and celebration halls. </Typography>
 
       <Box sx={{ mt: 4 }}>
         {imageRows.map((row, rowIndex) => (

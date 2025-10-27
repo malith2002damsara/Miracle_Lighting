@@ -51,9 +51,9 @@ const Services = ({ darkMode }) => {
     }}>
       {/* SEO Meta Tags for Services Page */}
       <SEO 
-        title="Our Services | Miracle Lighting - Event & Wedding Lighting Sri Lanka"
-        description="Explore our comprehensive decorative lighting services including indoor, outdoor, backdrop lighting, chandeliers, fairy lights, festoon lights and more for weddings and events in Sri Lanka."
-        keywords="lighting services, event lighting, wedding decoration, indoor lighting, outdoor lighting, fairy lights, chandeliers, Sri Lanka"
+        title="Our Services | Miracle Lighting - Wedding, Birthday, Christmas & Festival Lighting Sri Lanka"
+        description="Explore our comprehensive decorative lighting services including indoor, outdoor, backdrop lighting, chandeliers, fairy lights, festoon lights, temple decorations, birthday party lights, Christmas party lights, Vesak and Kathina festival lighting for weddings and events in Sri Lanka."
+        keywords="lighting services, event lighting, wedding decoration, birthday party lights, Christmas party lights, celebration lighting, party decoration, indoor lighting, outdoor lighting, fairy lights, chandeliers, temple lighting, Vesak decorations, Kathina festival, Poson lighting, Buddhist ceremony lights, festive lights, holiday lighting, kids party lights, Sri Lanka"
         url="https://miraclelighting.lk/services"
       />
 
