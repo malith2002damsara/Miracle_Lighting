@@ -39,9 +39,9 @@ const Event = ({ darkMode }) => {
   return (
     <>
       <SEO 
-        title="Events | Miracle Lighting - Wedding & Festival Lighting Services"
-        description="Explore our event lighting services for weddings and religious festivals. Professional decorative lighting solutions for your special occasions in Sri Lanka."
-        keywords="event lighting, wedding events, religious festivals, Kathina lighting, event decoration Sri Lanka"
+        title="Events & Functions Lighting - Wedding, Birthday, Christmas, Vesak, Kathina Services Sri Lanka"
+        description="Explore our event lighting services and decorations for weddings, birthdays, Christmas parties, Vesak, Kathina, Poson festivals and religious ceremonies. Professional decorative lighting solutions for all your special occasions, functions and celebrations in Sri Lanka."
+        keywords="event, events, event lighting, functions, function lighting, wedding events, birthday events, Christmas events, Kathina event, Vesak event, Poson event, religious festivals, temple events, decorations, event decorations, celebration lighting, corporate events, private functions, party lighting, Sri Lanka events, Colombo events, Miracle Lighting"
         url="https://miraclelighting.lk/event"
       />
       

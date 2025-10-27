@@ -51,9 +51,9 @@ const Services = ({ darkMode }) => {
     }}>
       {/* SEO Meta Tags for Services Page */}
       <SEO 
-        title="Our Services | Miracle Lighting - Wedding, Birthday, Christmas & Festival Lighting Sri Lanka"
-        description="Explore our comprehensive decorative lighting services including indoor, outdoor, backdrop lighting, chandeliers, fairy lights, festoon lights, temple decorations, birthday party lights, Christmas party lights, Vesak and Kathina festival lighting for weddings and events in Sri Lanka."
-        keywords="lighting services, event lighting, wedding decoration, birthday party lights, Christmas party lights, celebration lighting, party decoration, indoor lighting, outdoor lighting, fairy lights, chandeliers, temple lighting, Vesak decorations, Kathina festival, Poson lighting, Buddhist ceremony lights, festive lights, holiday lighting, kids party lights, Sri Lanka"
+        title="Lighting Services - Wedding, Birthday, Christmas, Vesak, Kathina, Poson Events & Functions Sri Lanka"
+        description="Complete decorative lighting and decoration services for weddings, birthdays, Christmas celebrations, Vesak, Kathina, Poson festivals, temple ceremonies, corporate events and functions. Indoor, outdoor, fairy lights, chandeliers and more in Sri Lanka."
+        keywords="wedding, wedding lighting, wedding decorations, birthday, birthday lighting, birthday decorations, Christmas, Christmas lighting, Christmas decorations, Kathina, Kathina lighting, Vesak, Vesak lighting, Vesak decorations, Poson, Poson lighting, light, lights, lighting services, event, events, event lighting, functions, function lighting, decorations, decorative lighting, indoor lighting, outdoor lighting, fairy lights, chandeliers, backdrop lighting, temple lighting, Buddhist festivals, party lights, celebration lighting, corporate events, Sri Lanka"
         url="https://miraclelighting.lk/services"
       />
 

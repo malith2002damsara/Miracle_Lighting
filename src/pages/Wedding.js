@@ -48,9 +48,9 @@ const Wedding = ({ darkMode }) => {
   return (
     <>
       <SEO 
-        title="Wedding Lighting Services | Miracle Lighting Sri Lanka"
-        description="Create magical moments with our stunning wedding lighting solutions. Professional decorative lighting including fairy lights, chandeliers, and backdrop lighting for your special day in Sri Lanka."
-        keywords="wedding lights, wedding decoration, bridal lighting, wedding fairy lights, wedding chandeliers, Sri Lanka weddings, marriage decoration"
+        title="Wedding Lighting & Decorations - Bridal Event Lighting Services Sri Lanka | Miracle Lighting"
+        description="Create magical moments with our stunning wedding lighting solutions and decorations. Professional event lighting including fairy lights, chandeliers, backdrop lighting, outdoor and indoor decorations for your special wedding day in Sri Lanka."
+        keywords="wedding, wedding lights, wedding lighting, wedding decorations, wedding event lighting, bridal lighting, bridal decorations, marriage lighting, marriage decorations, event, events, functions, wedding functions, decorations, fairy lights, chandeliers, backdrop lighting, outdoor wedding lights, indoor wedding lights, romantic lighting, reception lighting, Sri Lanka weddings, Colombo weddings, Miracle Lighting"
         url="https://miraclelighting.lk/wedding"
       />
       

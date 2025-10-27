@@ -17,9 +17,9 @@ const Home = () => {
     <>
       {/* SEO Meta Tags for Home Page */}
       <SEO 
-        title="Miracle Lighting | Wedding, Birthday, Christmas & Festival Decorative Lights in Sri Lanka"
-        description="Transform your special occasions with Miracle Lighting's stunning decorative lighting solutions. Expert wedding, birthday party, Christmas celebration, Vesak, Kathina, Poson, temple festival lighting services across Sri Lanka."
-        keywords="wedding lights, event lighting, decorative lights, birthday party lights, Christmas party lights, celebration lighting, party decoration, Vesak lighting, Kathina festival lights, Poson decorations, temple lighting, Buddhist festival illumination, festive lights, holiday lighting, kids party lights, themed party lights, Sri Lanka, Miracle Lighting"
+        title="Wedding, Birthday, Christmas, Vesak, Kathina, Poson - Event Lighting & Decorations Sri Lanka"
+        description="Transform your weddings, birthdays, Christmas parties, Vesak, Kathina, Poson festivals and events with stunning decorative lighting solutions. Expert lighting services for all functions and celebrations across Sri Lanka."
+        keywords="wedding, wedding lights, wedding decorations, birthday, birthday party, birthday decorations, Christmas, Christmas lights, Christmas party, Kathina, Kathina festival, Vesak, Vesak lighting, Vesak decorations, Poson, Poson festival, light, lights, lighting, event, events, event lighting, functions, function lighting, decorations, decorative lights, party lights, celebration, temple lighting, Buddhist festivals, corporate events, outdoor lighting, indoor lighting, Sri Lanka, Colombo, Miracle Lighting"
         url="https://miraclelighting.lk"
       />
 

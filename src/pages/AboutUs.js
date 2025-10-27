@@ -77,9 +77,9 @@ const AboutUs = ({ darkMode }) => {
   return (
     <>
       <SEO 
-        title="About Us | Miracle Lighting - Professional Event Lighting Sri Lanka"
-        description="Learn about Miracle Lighting, Sri Lanka's trusted provider of decorative lighting for weddings, festivals, and special events since 2017. 7 years of expertise in creating unique and mesmerizing ambiance."
-        keywords="about Miracle Lighting, event lighting company, wedding lighting Sri Lanka, professional lighting services, decorative lighting experts"
+        title="About Miracle Lighting - Wedding, Birthday, Christmas, Vesak, Kathina Event Lighting Experts Sri Lanka"
+        description="Learn about Miracle Lighting, Sri Lanka's trusted provider of decorative lighting for weddings, birthdays, Christmas, Vesak, Kathina, Poson festivals, temple decorations and special events since 2017. 7 years of expertise in creating unique and mesmerizing ambiance for all occasions and functions."
+        keywords="about Miracle Lighting, wedding lighting, birthday lighting, Christmas lighting, Vesak lighting, Kathina lighting, Poson lighting, event lighting company, functions, decorations, professional lighting services, decorative lighting experts, temple lighting, Buddhist festivals, party lighting, Sri Lanka"
         url="https://miraclelighting.lk/about-us"
       />
       
